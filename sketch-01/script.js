@@ -87,8 +87,8 @@ graphHeight = svgHeight / 2
             return path
         })
         .style("fill", "none")
-        .attr("stroke", "green")
-        .attr("stroke-width", d => d.count)
+        .attr("stroke", "black")
+        .attr("stroke-width", d => d.count * 0.7)
 
 
         // add frequency rings
@@ -114,15 +114,15 @@ graphHeight = svgHeight / 2
                 .attr('cx', d => x(d[1]))
                 .attr('cy', graphHeight - 125)
                 .attr('r', d => 5 * (d[0] + 1))
-                .style('stroke', 'green')
+                .style('stroke', 'black')
                 .style('fill', 'none')
 
 
         // add circular bar plot
         
         // radius
-        const innerRadius = 15;
-        const outerRadius = innerRadius * 3;
+        const innerRadius = 13;
+        const outerRadius = innerRadius * 2;
 
         // x scale
         const xCircularBarPlot = d3.scaleBand()
@@ -140,14 +140,24 @@ graphHeight = svgHeight / 2
 
         // Create bars
         data.note_frequency_by_measure.forEach(note => {
+
             console.log(note.measures)
-            circularBarPlot.append('g')
-                .selectAll('path')
+            const group = circularBarPlot.append('g')
+                .attr('transform', `translate(${x(note.id)}, ${graphHeight + 100})`);
+
+            group.append('circle')
+                .attr('cx', 0)
+                .attr('cy', 0)
+                .attr('r', 13)
+                .attr('fill', 'none')
+                .attr('stroke', 'black')
+                .attr('stroke-width', 1)
+
+            group.selectAll('path')
                 .data(note.measures)
                 .enter()
                 .append('path')
-                .attr('fill', "green")
-                .attr('transform', `translate(${x(note.id)}, ${graphHeight + 100})`)
+                .attr('fill', "black")
                 .attr('d', d3.arc()
                     .innerRadius(innerRadius)
                     .outerRadius(d => yCircularBarPlot(d.counter)) // Bar height depends on counter
@@ -157,6 +167,10 @@ graphHeight = svgHeight / 2
                     .padRadius(innerRadius));
         });
 
+
+        // melodic contour
+        const melodicContour = svg.append('g')
+            .attr('id', 'melodic-contour')
                                         
                                             
 
