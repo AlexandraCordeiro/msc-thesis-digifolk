@@ -165,14 +165,43 @@ graphHeight = svgHeight / 2
                     .endAngle(d => xCircularBarPlot(d.measure) + xCircularBarPlot.bandwidth())
                     .padAngle(0.3)
                     .padRadius(innerRadius));
+
+
+
         });
+                
+        
+        // fundamental frequency contour (f0)
+        let f0 = svg.append('g')
+            .attr('id', 'fundamental-frequency')
 
+        // x axis
+        var xFundamentalFrequency = d3.scaleLinear()
+            .domain(d3.extent(data.time))
+            .range([ 0, graphWidth ]);
 
-        // melodic contour
-        const melodicContour = svg.append('g')
-            .attr('id', 'melodic-contour')
+        // y axis
+        var yFundamentalFrequency = d3.scaleLinear()
+            .domain([0, d3.max(data.f0)])
+            .range([ graphHeight/3, 0 ]);
+
+        // line function
+        let line =  d3.line()
+            .x(d => xFundamentalFrequency(d.time))
+            .y(d => yFundamentalFrequency(d.f0))
+            .defined(d => d.f0 !== null)
+
+        // Add the line
+        f0.append("path")
+            .datum(data.time.map((t, i) => ({ time: t, f0: data.f0[i] })))
+            .attr("fill", "none")
+            .attr("d", line)
+            .attr('stroke', 'black')
+            .attr("stroke-width", 2)
+            .attr("transform", `translate(0, ${margin * 2})`)
+
                                         
-                                            
+        // midi melodic contour
 
                                        
     })
