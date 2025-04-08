@@ -31,12 +31,12 @@
             "frequency": 2
         },
         {
-            "id": 61,
+            "id": 56,
             "name": "C5",
             "frequency": 0
         },
         {
-            "id": 62,
+            "id": 57,
             "name": "D5",
             "frequency": 2
         }
@@ -59,11 +59,11 @@
         },
         {
             "source": 55,
-            "target": 62,
+            "target": 57,
             "count": 2
         },
         {
-            "source": 62,
+            "source": 57,
             "target": 53,
             "count": 2
         },
@@ -445,7 +445,7 @@
             ]
         },
         {
-            "id": 62,
+            "id": 57,
             "measures": [
                 {
                     "measure": 1,
