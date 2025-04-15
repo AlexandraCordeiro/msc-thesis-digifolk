@@ -3,21 +3,36 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"
 // set the dimensions and margins of the graph
 const svgWidth = window.innerWidth,
 svgHeight = window.innerHeight,
-margin = svgWidth * 0.1,
+margin = svgWidth * 0.2,
 graphWidth = svgWidth - margin,
-graphHeight = svgHeight / 2
+graphHeight = svgHeight / 3
 
-const hzToNoteId = (freq) => {
-    // formula hz to note (midi note)
-    let noteNames = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
-    let note = Math.round(12 * Math.log2((freq / 440)) + 69)
-    let octave = Math.floor((note / 12) - 1)
-    let noteIndex = (note % 12)
-    let name = noteNames[noteIndex] + octave
-    return getNoteId(name)
+const getStartTime = (f0, time) => {
+    for (let i = 0; i < f0.length - 1; i++) {
+        console.log(i)
+        if (f0[i] == 0 && f0[i + 1] > 0) {
+            return time[i]
+        }
+    }
+    return time[0]
 
 }
-const getNoteId = (n) => {
+
+const hzToMidi = (freq) => {
+    // formula hz to note (midi note)
+    let midi = Math.round(12 * Math.log2((freq / 440)) + 69)
+    let name = midiToNote(midi)
+    return noteToMidi(name)
+}
+
+const midiToNote = (midi) => {
+    let noteNames = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+    let octave = Math.floor((midi / 12) - 1)
+    let noteIndex = (midi % 12)
+    return noteNames[noteIndex] + octave
+}
+
+const noteToMidi = (n) => {
     if (!n) {return 0}
     let octave = parseInt(n.match(new RegExp("[0-9]+"))[0])
     let acc = n.match(new RegExp("[#b]"))
@@ -47,7 +62,7 @@ const audioVsScore = svg.append("g")
 .attr("id", "audio-vs-score")
 .attr("width", graphWidth)
 .attr("height", graphHeight)
-.attr("transform", `translate(${svgWidth * 0.5 - graphWidth * 0.5})`)
+.attr("transform", `translate(${svgWidth * 0.5 - graphWidth * 0.5}, ${svgHeight * 0.5 - graphHeight * 0.5})`)
 
 const audioContour = audioVsScore.append("g")
 .attr("id", "audio-contour")
@@ -64,6 +79,7 @@ d3.json("data.json").then(function(data) {
     const audioContourDb = data.melodic_contour[0].f0_db
     const scoreContourTime = data.score_contour.map(d => d.end)
 
+    const startOffset = getStartTime(audioContourFrequency, audioContourTime)
 
     const x = (domain) => {
         return d3.scaleLinear()
@@ -77,45 +93,69 @@ d3.json("data.json").then(function(data) {
         .domain(domain)
     }
     
+    const findMinMax = [d3.max(audioContourFrequency.filter(d => d > 0).map(d => hzToMidi(d))),
+                        d3.min(audioContourFrequency.filter(d => d > 0).map(d => hzToMidi(d))),
+                        d3.max(data.score_contour.map(d => noteToMidi(d.note))),
+                        d3.min(data.score_contour.map(d => noteToMidi(d.note)))]
+
     const xAudio = x([d3.min(audioContourTime), d3.max(audioContourTime)])
-    const yAudio = y([getNoteId("C2"), getNoteId("C7")])
+    const yAudio = y([d3.min(findMinMax), d3.max(findMinMax)])
     
     const xScore = x([0, d3.max(scoreContourTime)])
-    const yScore = y([getNoteId("C2"), getNoteId("C7")])
+    const yScore = y([d3.min(findMinMax), d3.max(findMinMax)])
 
     const variableThickness = d3.scaleLinear()
     .range([2, 6])
     .domain([d3.min(audioContourDb), d3.max(audioContourDb)])
 
-    const processAudioData = data.melodic_contour[0].time.map((d, i) => ({"time": +audioContourTime[i], "f0": +audioContourFrequency[i], "db": +audioContourDb[i]}))
+
+    const processAudioData = data.melodic_contour[0].time.map((d, i) => ({"time": +audioContourTime[i] - startOffset, "f0": +audioContourFrequency[i], "db": +audioContourDb[i]}))
 
     const areaGenerator = d3.area()
-    .defined(d => d.f0 && d.f0 > 0)
+    .defined(d => +d.f0)
     .x(d => xAudio(d.time))
-    .y0(d => yAudio(hzToNoteId(d.f0)) - 4)
-    .y1(d => yAudio(hzToNoteId(d.f0)) + 4)
+    .y0(d => yAudio(hzToMidi(d.f0)) - 3)
+    .y1(d => yAudio(hzToMidi(d.f0)) + 3)
     .curve(d3.curveBasis)
 
     const lineGenerator = d3.line()
-    .defined(d => d.note)
-    .x(d => xScore(+d.start))
-    .y(d => yScore(getNoteId(d.note)))
+    .defined(d => noteToMidi(d.note))
+    .x(d => xScore(+d.time))
+    .y(d => yScore(noteToMidi(d.note)))
 
     audioContour.append("path")
     .datum(processAudioData)
-    .attr("fill", "lightblue")
+    .attr("fill", "black")
     .attr("fill-opacity", 0.7)
     .attr("d", d => areaGenerator(d))
 
+    console.log(data.score_contour.flatMap(d => ([{"note": d.note, "time": +d.start}, {"note": d.note, "time": +d.end}])))
     scoreContour.append("path")
-    .datum(data.score_contour)
+    .datum(data.score_contour.flatMap(d => ([{"note": d.note, "time": +d.start}, {"note": d.note, "time": +d.end}])))
     .attr("stroke", "black")
     .attr("fill", "none")
     .attr("stroke-width", 1.5)
     .attr("d", d => lineGenerator(d))
 
+    scoreContour.selectAll("circle")
+    .data(data.score_contour.flatMap(d => ([{"note": d.note, "time": +d.start}, {"note": d.note, "time": +d.end}])))
+    .enter()
+    .append("circle")
+    .attr("fill", "black")
+    .attr("cx", d => xScore(+d.time))
+    .attr("cy", d => yScore(noteToMidi(d.note)))
+    .attr("r", graphWidth * 0.003)
+
     audioVsScore.append("g")
-    .call(d3.axisLeft(yScore));
+    .attr("transform", `translate(${-graphWidth * 0.02},0)`)
+    .attr("class", "jost-regular")
+    .call(d3.axisLeft(yScore).ticks(6).tickFormat(d => midiToNote(d)))
+
+    audioVsScore.append("g")
+    .attr("class", "jost-regular")
+    .call(d3.axisBottom(xScore).tickFormat(d => d + "s"))
+    .attr("transform", `translate(0, ${graphHeight + 10})`)
+
 
     const audioContourWidth = d3.select('#audio-contour').node().getBoundingClientRect().width
     const scoreContourWidth = d3.select('#score-contour').node().getBoundingClientRect().width
