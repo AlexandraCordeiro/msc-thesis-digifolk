@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "d3-fisheye": "^2.1.2"
+  }
+}
