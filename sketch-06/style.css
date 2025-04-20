@@ -1,0 +1,10 @@
+
+.jost-regular {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; }
+
+.x-axis {
+    stroke-opacity: 0.2;
+}
