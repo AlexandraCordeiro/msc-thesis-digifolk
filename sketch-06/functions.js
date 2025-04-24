@@ -32,7 +32,7 @@ export function drawLinks(data, group, graphHeight, graphWidth, x) {
     .domain([d3.min(data.links.map(d => d.count)), d3.max(data.links.map(d => d.count))])
 
     let colorScale = d3.scaleLinear()
-    .range(["#833AB4", "#FCB045"])
+    .range(["#833AB4", "#ce3e2b"])
     .domain([noteToMidi("C2"), noteToMidi("C7")])
 
     // Add links between nodes

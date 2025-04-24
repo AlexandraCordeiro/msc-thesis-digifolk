@@ -1,0 +1,866 @@
+,identifier,title,rightsP,creatorP,key,metre,tempo,genre,instrument,alternativeTitle,subject,language,relation,hasVersion,isVersionOf,coverage,lyrics,audioLink,repetiveness_ratio,tokens
+0,IE-2019-D-HLS-001,"One, two, three, four, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"One, two three, four
+Anastasia at the door
+Kissing Gabbie at the gate,
+Five, six, seven, eight.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_001_(HS_6818_Track_18).mp3,1.5578947368421052,"['one', 'two', 'three', 'four', 'anastasia', 'at', 'the', 'door', 'kissing', 'gabbie', 'at', 'the', 'gate', 'five', 'six', 'seven', 'eight']"
+1,IE-2019-D-HLS-002,"Twenty, eighteen, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Twenty, eighteen, sixteen, fourteen,
+Twelve, ten, eight, six, four, two, none,
+Nineteen, seventeen, fifteen and thirteen,
+Eleven, nine, seven, five, three and one.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_007_(HS_6112_(ITMA_2192g_Track_21)).mp3,1.030674846625767,"['twenty', 'eighteen', 'sixteen', 'fourteen', 'twelve', 'ten', 'eight', 'six', 'four', 'two', 'none', 'nineteen', 'seventeen', 'fifteen', 'and', 'thirteen', 'eleven', 'nine', 'seven', 'five', 'three', 'and', 'one']"
+2,IE-2019-D-HLS-003,"The rippo, the rappo, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"The rippo, the rappo, the sailor’s on the sea,
+Me oh, my oh, they’re after me.
+Are you coming to the fair?
+I went, she went, there’s no fair there.
+I must not miss a loopie-oh.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_013_(HS_6818_Track_16).mp3,1.098901098901099,"['the', 'rippo', 'the', 'rappo', 'the', 'sailor', 's', 'on', 'the', 'sea', 'me', 'oh', 'my', 'oh', 'they', 're', 'after', 'me', 'are', 'you', 'coming', 'to', 'the', 'fair', 'i', 'went', 'she', 'went', 'there', 's', 'no', 'fair', 'there', 'i', 'must', 'not', 'miss', 'a']"
+3,IE-2019-D-HLS-004,"Bluebells, cockleshells, rhyme ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Bluebells, cockle-shells,
+Eever, iver, over.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_018_(HS_6818_Track_26).mp3,2.272727272727273,"['bluebells', 'eever', 'iver', 'over']"
+4,IE-2019-D-HLS-005,"Skip, skip, skip to my Lou, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Skip, skip, skip to maloo,
+Skip, skip, skip to maloo,
+Skip, skip, skip to maloo,
+Skip to maloo, my darling.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_021_(HS_6903_Track_5_pruned).mp3,0.9719626168224299,"['skip', 'skip', 'skip', 'to', 'maloo', 'skip', 'skip', 'skip', 'to', 'maloo', 'skip', 'skip', 'skip', 'to', 'maloo', 'skip', 'to', 'maloo', 'my', 'darling']"
+5,IE-2019-D-HLS-006,"My name is L I L I, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"My name is L - I - L - I
+Chickalie, chickalie,
+Walla waller winker,
+Chinese chopsticks,
+Indian chief.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_026_(HS_6818_Track_39).mp3,1.4257425742574257,"['my', 'name', 'is', 'l', 'i', 'l', 'i', 'chickalie', 'chickalie', 'walla', 'waller', 'winker', 'chinese', 'chopsticks', 'indian', 'chief']"
+6,IE-2019-D-HLS-007,"Dusty bluebells, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"In and out goes the dusty bluebells,
+In and out goes the dusty bluebells,
+In and out goes the dusty bluebells,
+You are the master.
+Tapper-rapper-rapper on your shoulders,
+Tapper-rapper-rapper on your shoulders,
+Tapper-rapper-rapper on your shoulders,
+You are the master.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_028_(HS_6918_Track_06).mp3,0.5777777777777777,"['in', 'and', 'out', 'goes', 'the', 'dusty', 'bluebells', 'in', 'and', 'out', 'goes', 'the', 'dusty', 'bluebells', 'in', 'and', 'out', 'goes', 'the', 'dusty', 'bluebells', 'you', 'are', 'the', 'master', 'on', 'your', 'shoulders', 'on', 'your', 'shoulders', 'on', 'your', 'shoulders', 'you', 'are', 'the', 'master']"
+7,IE-2019-D-HLS-008,"A big ship sailed to the illy ally oh, song",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"A big ship sails to the illy ally oh,
+The illy ally oh, the illy ally oh,
+A big ship sails to the illy ally oh,
+On the last day of September.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_030_(HS_6112e_Track_08_TOO_FAINT.mp3,0.9645390070921985,"['a', 'big', 'ship', 'sails', 'to', 'the', 'illy', 'ally', 'oh', 'the', 'illy', 'ally', 'oh', 'the', 'illy', 'ally', 'oh', 'a', 'big', 'ship', 'sails', 'to', 'the', 'illy', 'ally', 'oh', 'on', 'the', 'last', 'day', 'of', 'september']"
+8,IE-2019-D-HLS-009,"Wallflowers, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Wallflowers, wallflowers, growing up so high,
+Especially Marie S****, she is the youngest child.
+Oh fie, for shame, oh fie, for shame,
+Turn your back against the game.
+Wallflowers, wallflowers, growing up so high,
+Especially Deborah C******, she is the youngest child.
+Oh fie, for shame, oh fie, for shame,
+Turn your back against the game.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_031_(HS_6818_Track_02_pruned).mp3,0.6135693215339233,"['wallflowers', 'wallflowers', 'growing', 'up', 'so', 'high', 'especially', 'marie', 's', 'she', 'is', 'the', 'youngest', 'child', 'oh', 'fie', 'for', 'shame', 'oh', 'fie', 'for', 'shame', 'turn', 'your', 'back', 'against', 'the', 'game', 'wallflowers', 'wallflowers', 'growing', 'up', 'so', 'high', 'especially', 'deborah', 'c', 'she', 'is', 'the', 'youngest', 'child', 'oh', 'fie', 'for', 'shame', 'oh', 'fie', 'for', 'shame', 'turn', 'your', 'back', 'against', 'the', 'game']"
+9,IE-2019-D-HLS-010,"A little thing goes wandering about, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"A little thing goes wandering about
+Behind her backs and under her tracks.
+See, I have got it,
+See, I have got it,
+Tra-la, la-la, la-la.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_033_(HS_6906_Track_12).mp3,1.2058823529411764,"['a', 'little', 'thing', 'goes', 'wandering', 'about', 'behind', 'her', 'backs', 'and', 'under', 'her', 'tracks', 'see', 'i', 'have', 'got', 'it', 'see', 'i', 'have', 'got', 'it']"
+10,IE-2019-D-HLS-011,"Thart fá dtaobh de’n bhaile, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,Irish,,,,,"Thart fá dtaobh den bhaile,
+Thart fá dtaobh den bhaile,
+Thart fá dtaobh den bhaile,
+Mar rinneamar fadó.
+Amach ’s isteach ar fhuinneog,
+Amach ’s isteach ar fhuinneog,
+Amach ’s isteach ar fhuinneog,
+Mar rinneamar fadó.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_034_(HS_6832_Track_03).mp3,0.6696035242290749,"['thart', 'fá', 'dtaobh', 'den', 'bhaile', 'thart', 'fá', 'dtaobh', 'den', 'bhaile', 'thart', 'fá', 'dtaobh', 'den', 'bhaile', 'mar', 'rinneamar', 'fadó', 'amach', 's', 'isteach', 'ar', 'fhuinneog', 'amach', 's', 'isteach', 'ar', 'fhuinneog', 'amach', 's', 'isteach', 'ar', 'fhuinneog', 'mar', 'rinneamar', 'fadó']"
+11,IE-2019-D-HLS-012,"Green gravel, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Green gravel, green gravel, the grass is so green
+And her face is the fairest that ever was seen.
+I’ll wash her in buttermilk and I’ll dress her in silk
+And I’ll write her a letter with a gold pen and ink.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_035_(HS_6805_Track_07).mp3,0.985781990521327,"['green', 'gravel', 'green', 'gravel', 'the', 'grass', 'is', 'so', 'green', 'and', 'her', 'face', 'is', 'the', 'fairest', 'that', 'ever', 'was', 'seen', 'i', 'll', 'wash', 'her', 'in', 'buttermilk', 'and', 'i', 'll', 'dress', 'her', 'in', 'silk', 'and', 'i', 'll', 'write', 'her', 'a', 'letter', 'with', 'a', 'gold', 'pen', 'and', 'ink']"
+12,IE-2019-D-HLS-013,"Old Roger is dead, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Old Roger is dead and he lies in his grave,
+Lies in his grave, lies in his grave,
+Old Roger is dead and he lies in his grave,
+Y - O - U.
+There grew an old apple tree over his head,
+Over his head, over his head,
+There grew an old apple tree over his head,
+Y - O - U.
+The apples got ripe and they all fell off,
+All fell off, all fell off,
+The apples got ripe and they all fell off,
+Y - O - U.
+There came an old woman picking them up,
+Picking them up, picking them up,
+There came an old woman picking them up,
+Y - O - U.
+Old Roger got up and he hit her a kick,
+Hit her a kick, hit her a kick,
+Old Roger got up and he hit her a kick,
+Y - O - U.
+Then the old woman went hippety-hop,
+Hippety-hop, hippety-hop,
+Then the old woman went hippety-hop,
+Y - O - U.
+Old Roger got up and he helped her to walk,
+Helped her to walk, helped her to walk,
+Old Roger got up and he helped her to walk,
+Y - O - U.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_036_(HS_6918_Track_2).mp3,0.36404494382022473,"['old', 'roger', 'is', 'dead', 'and', 'he', 'lies', 'in', 'his', 'grave', 'lies', 'in', 'his', 'grave', 'lies', 'in', 'his', 'grave', 'old', 'roger', 'is', 'dead', 'and', 'he', 'lies', 'in', 'his', 'grave', 'y', 'o', 'u', 'there', 'grew', 'an', 'old', 'apple', 'tree', 'over', 'his', 'head', 'over', 'his', 'head', 'over', 'his', 'head', 'there', 'grew', 'an', 'old', 'apple', 'tree', 'over', 'his', 'head', 'y', 'o', 'u', 'the', 'apples', 'got', 'ripe', 'and', 'they', 'all', 'fell', 'off', 'all', 'fell', 'off', 'all', 'fell', 'off', 'the', 'apples', 'got', 'ripe', 'and', 'they', 'all', 'fell', 'off', 'y', 'o', 'u', 'there', 'came', 'an', 'old', 'woman', 'picking', 'them', 'up', 'picking', 'them', 'up', 'picking', 'them', 'up', 'there', 'came', 'an', 'old', 'woman', 'picking', 'them', 'up', 'y', 'o', 'u', 'old', 'roger', 'got', 'up', 'and', 'he', 'hit', 'her', 'a', 'kick', 'hit', 'her', 'a', 'kick', 'hit', 'her', 'a', 'kick', 'old', 'roger', 'got', 'up', 'and', 'he', 'hit', 'her', 'a', 'kick', 'y', 'o', 'u', 'then', 'the', 'old', 'woman', 'went', 'then', 'the', 'old', 'woman', 'went', 'y', 'o', 'u', 'old', 'roger', 'got', 'up', 'and', 'he', 'helped', 'her', 'to', 'walk', 'helped', 'her', 'to', 'walk', 'helped', 'her', 'to', 'walk', 'old', 'roger', 'got', 'up', 'and', 'he', 'helped', 'her', 'to', 'walk', 'y', 'o', 'u']"
+13,IE-2019-D-HLS-014,"Cups and saucers, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Cups and saucers, plates and dishes, Little black men in calico britches. Open your gates and let me through.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_038_(HS_6805_Track_08).mp3,1.3944954128440368,"['cups', 'and', 'saucers', 'plates', 'and', 'dishes', 'little', 'black', 'men', 'in', 'calico', 'britches', 'open', 'your', 'gates', 'and', 'let', 'me', 'through']"
+14,IE-2019-D-HLS-015,"There came three gipsies riding, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"There came three gipsies riding,
+Riding, riding,
+There came three gipsies riding,
+Y - O - U.
+‘What are you riding here for,
+Here for, here for?
+What are you riding here for?’
+Y - O - U.
+‘We’re riding here to marry one of you boys
+You boys, you boys,
+We’re riding here to marry one of you boys’
+Y - O - U.
+‘Who would marry you boys?
+You boys, you boys?
+Who would marry you boys’
+Y - O - U.
+‘We’re just as good as you boys,
+You boys, you boys,
+We’re just as good as you boys’
+Y - O - U.
+‘Your knees are stiff as pokers,
+Pokers, pokers,
+Your knees are stiff as pokers’
+Y - O - U.
+‘We can bend our knees as well as you boys,
+You boys, you boys,
+We can bend our knees as well as you boys’
+Y - O - U.
+‘Where will your mother sleep?,
+Your mother sleep, your mother sleep?
+Where will your mother sleep?’
+Y - O - U.
+‘Her mother will sleep in her father’s bed,
+Her father’s bed, her father’s bed,
+Her mother will sleep in her father’s bed’
+Y - O - U.
+‘Where will your father sleep?,
+Father sleep, father sleep?
+Where will your father sleep?’
+Y - O - U.
+‘Her father will sleep in the maid’s bed,
+the maid’s bed, the maid’s bed,
+Her father will sleep in the maid’s bed’
+Y - O - U.
+‘Where will the maid sleep?
+The maid sleep, the maid sleep?,
+Where will the maid sleep?’
+Y - O - U.
+‘The maid will sleep in the pig-sty,
+The pig-sty, the pig-sty,
+The maid will sleep in the pig-sty’
+Y - O - U.
+‘Where will the pig sleep?,
+The pig sleep, the pig sleep?
+Where will the pig sleep?’
+Y - O - U.
+‘The pig will sleep at the riverside,
+The riverside, the riverside,
+The pig will sleep at the riverside’
+Y - O - U.
+‘Where will you wash your clothes?
+Wash your clothes, wash your clothes?
+Where will you wash your clothes?’
+Y - O - U.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_039_(HS_6918_Track_04_Pruned.mp3,0.2744004461795873,"['there', 'came', 'three', 'gipsies', 'riding', 'riding', 'riding', 'there', 'came', 'three', 'gipsies', 'riding', 'y', 'o', 'u', 'what', 'are', 'you', 'riding', 'here', 'for', 'here', 'for', 'here', 'for', 'what', 'are', 'you', 'riding', 'here', 'for', 'y', 'o', 'u', 'we', 're', 'riding', 'here', 'to', 'marry', 'one', 'of', 'you', 'boys', 'you', 'boys', 'you', 'boys', 'we', 're', 'riding', 'here', 'to', 'marry', 'one', 'of', 'you', 'boys', 'y', 'o', 'u', 'who', 'would', 'marry', 'you', 'boys', 'you', 'boys', 'you', 'boys', 'who', 'would', 'marry', 'you', 'boys', 'y', 'o', 'u', 'we', 're', 'just', 'as', 'good', 'as', 'you', 'boys', 'you', 'boys', 'you', 'boys', 'we', 're', 'just', 'as', 'good', 'as', 'you', 'boys', 'y', 'o', 'u', 'your', 'knees', 'are', 'stiff', 'as', 'pokers', 'pokers', 'pokers', 'your', 'knees', 'are', 'stiff', 'as', 'pokers', 'y', 'o', 'u', 'we', 'can', 'bend', 'our', 'knees', 'as', 'well', 'as', 'you', 'boys', 'you', 'boys', 'you', 'boys', 'we', 'can', 'bend', 'our', 'knees', 'as', 'well', 'as', 'you', 'boys', 'y', 'o', 'u', 'where', 'will', 'your', 'mother', 'sleep', 'your', 'mother', 'sleep', 'your', 'mother', 'sleep', 'where', 'will', 'your', 'mother', 'sleep', 'y', 'o', 'u', 'her', 'mother', 'will', 'sleep', 'in', 'her', 'father', 's', 'bed', 'her', 'father', 's', 'bed', 'her', 'father', 's', 'bed', 'her', 'mother', 'will', 'sleep', 'in', 'her', 'father', 's', 'bed', 'y', 'o', 'u', 'where', 'will', 'your', 'father', 'sleep', 'father', 'sleep', 'father', 'sleep', 'where', 'will', 'your', 'father', 'sleep', 'y', 'o', 'u', 'her', 'father', 'will', 'sleep', 'in', 'the', 'maid', 's', 'bed', 'the', 'maid', 's', 'bed', 'the', 'maid', 's', 'bed', 'her', 'father', 'will', 'sleep', 'in', 'the', 'maid', 's', 'bed', 'y', 'o', 'u', 'where', 'will', 'the', 'maid', 'sleep', 'the', 'maid', 'sleep', 'the', 'maid', 'sleep', 'where', 'will', 'the', 'maid', 'sleep', 'y', 'o', 'u', 'the', 'maid', 'will', 'sleep', 'in', 'the', 'the', 'the', 'the', 'maid', 'will', 'sleep', 'in', 'the', 'y', 'o', 'u', 'where', 'will', 'the', 'pig', 'sleep', 'the', 'pig', 'sleep', 'the', 'pig', 'sleep', 'where', 'will', 'the', 'pig', 'sleep', 'y', 'o', 'u', 'the', 'pig', 'will', 'sleep', 'at', 'the', 'riverside', 'the', 'riverside', 'the', 'riverside', 'the', 'pig', 'will', 'sleep', 'at', 'the', 'riverside', 'y', 'o', 'u', 'where', 'will', 'you', 'wash', 'your', 'clothes', 'wash', 'your', 'clothes', 'wash', 'your', 'clothes', 'where', 'will', 'you', 'wash', 'your', 'clothes', 'y', 'o', 'u']"
+15,IE-2019-D-HLS-016,"Jenny Jones, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"‘I’ve come to see Jenny Jones,
+Jenny Jones, Jenny Jones,
+I’ve come to see Jenny Jones.’
+‘You can’t see her today.
+For Jenny Jones’ washing clothes,
+Washing clothes, washing clothes,
+Jenny Jones’ washing clothes,
+You can’t see her today.’
+‘I’ve come to see Jenny Jones,
+Jenny Jones, Jenny Jones,
+I’ve come to see Jenny Jones.’
+‘You can’t see her today.
+For Jenny Jones’ smoothing clothes,
+Smoothing clothes, smoothing clothes,
+Jenny Jones’ smoothing clothes,
+You can’t see her today.’
+‘We’ve come to see Jenny Jones,
+Jenny Jones, Jenny Jones,
+We’ve come to see Jenny Jones.’
+‘You can’t see her today.
+For Jenny Jones’ mending clothes,
+Mending clothes, mending clothes,
+Jenny Jones’ mending clothes,
+You can’t see her today.’
+‘We’ve come to see Jenny Jones
+Jenny Jones, Jenny Jones,
+We’ve come to see Jenny Jones.’
+‘You can’t see her today.
+For Jenny Jones’ ill in bed,
+Ill in bed, ill in bed,
+Jenny Jones’ ill in bed,
+You can’t see her today.’
+‘We’ve come to see Jenny Jones,
+Jenny Jones, Jenny Jones,
+We’ve come to see Jenny Jones’
+‘You can’t see her today.
+For Jenny Jones’ dead and gone,
+Dead and gone, dead and gone,
+Jenny Jones’ dead and gone,
+You can’t see her today.’",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_040_(HS_6112_(ITMA_2192e_Track_6_FAINT.mp3,0.21052631578947367,"['i', 've', 'come', 'to', 'see', 'jenny', 'jones', 'jenny', 'jones', 'jenny', 'jones', 'i', 've', 'come', 'to', 'see', 'jenny', 'you', 'can', 't', 'see', 'her', 'today', 'for', 'jenny', 'jones', 'washing', 'clothes', 'washing', 'clothes', 'washing', 'clothes', 'jenny', 'jones', 'washing', 'clothes', 'you', 'can', 't', 'see', 'her', 'i', 've', 'come', 'to', 'see', 'jenny', 'jones', 'jenny', 'jones', 'jenny', 'jones', 'i', 've', 'come', 'to', 'see', 'jenny', 'you', 'can', 't', 'see', 'her', 'today', 'for', 'jenny', 'jones', 'smoothing', 'clothes', 'smoothing', 'clothes', 'smoothing', 'clothes', 'jenny', 'jones', 'smoothing', 'clothes', 'you', 'can', 't', 'see', 'her', 'we', 've', 'come', 'to', 'see', 'jenny', 'jones', 'jenny', 'jones', 'jenny', 'jones', 'we', 've', 'come', 'to', 'see', 'jenny', 'you', 'can', 't', 'see', 'her', 'today', 'for', 'jenny', 'jones', 'mending', 'clothes', 'mending', 'clothes', 'mending', 'clothes', 'jenny', 'jones', 'mending', 'clothes', 'you', 'can', 't', 'see', 'her', 'we', 've', 'come', 'to', 'see', 'jenny', 'jones', 'jenny', 'jones', 'jenny', 'jones', 'we', 've', 'come', 'to', 'see', 'jenny', 'you', 'can', 't', 'see', 'her', 'today', 'for', 'jenny', 'jones', 'ill', 'in', 'bed', 'ill', 'in', 'bed', 'ill', 'in', 'bed', 'jenny', 'jones', 'ill', 'in', 'bed', 'you', 'can', 't', 'see', 'her', 'we', 've', 'come', 'to', 'see', 'jenny', 'jones', 'jenny', 'jones', 'jenny', 'jones', 'we', 've', 'come', 'to', 'see', 'jenny', 'jones', 'you', 'can', 't', 'see', 'her', 'today', 'for', 'jenny', 'jones', 'dead', 'and', 'gone', 'dead', 'and', 'gone', 'dead', 'and', 'gone', 'jenny', 'jones', 'dead', 'and', 'gone', 'you', 'can', 't', 'see', 'her', 'today']"
+16,IE-2019-D-HLS-017,"One, two, three, O'Leary, song [Belfast] ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"One, two three, alery,
+Four, five, six, alery,
+Seven, eight, nine, alery,
+Ten, alery,
+Post-boy’s knock.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_041(i)_HS_6106_Track_11_FAINT.mp3,1.3714285714285714,"['one', 'two', 'three', 'alery', 'four', 'five', 'six', 'alery', 'seven', 'eight', 'nine', 'alery', 'ten', 'alery', 's', 'knock']"
+17,IE-2019-D-HLS-018,"On the mountain stands a lady, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"On the mountain stands a lady,
+Who she is I do not know.
+She has lost her gold and silver,
+All she wants is someone new.
+Call in my Rosemary oh,
+Rosemary oh,
+Call in my Rosemary oh,
+Till I get out to play.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_044(i)_(HS_6920_Track_10).mp3,1.053658536585366,"['on', 'the', 'mountain', 'stands', 'a', 'lady', 'who', 'she', 'is', 'i', 'do', 'not', 'know', 'she', 'has', 'lost', 'her', 'gold', 'and', 'silver', 'all', 'she', 'wants', 'is', 'someone', 'new', 'call', 'in', 'my', 'rosemary', 'oh', 'rosemary', 'oh', 'call', 'in', 'my', 'rosemary', 'oh', 'till', 'i', 'get', 'out', 'to', 'play']"
+18,IE-2019-D-HLS-019,"Hally go lee go lee, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Hally go-lee go lee,
+Hally go-lo go-lo,
+Hally go-lee go lee,
+Upon a summer’s day, Yoh!
+Hally go-lee go lee,
+Hally go-lo go-lo,
+Hally go-lee go lee,
+Upon a summer’s day.
+Here we go round the ring,
+Hally go-lee go-lo,
+Hally go-lee go lee,
+Upon a summer’s day.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_045_(HS_6804_Track_2).mp3,0.5931558935361216,"['hally', 'go', 'lee', 'hally', 'hally', 'go', 'lee', 'upon', 'a', 'summer', 's', 'day', 'yoh', 'hally', 'go', 'lee', 'hally', 'hally', 'go', 'lee', 'upon', 'a', 'summer', 's', 'day', 'here', 'we', 'go', 'round', 'the', 'ring', 'hally', 'hally', 'go', 'lee', 'upon', 'a', 'summer', 's', 'day']"
+19,IE-2019-D-HLS-020,"Here are the robbers coming through, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Here are the robbers coming through,
+Coming through, coming through, 
+Here are the robbers coming through, 
+My fair lady. 
+What did the robbers do on you, 
+Do on you, do on you? 
+What did the robbers do on you 
+My fair lady? 
+They stole my watch and broke my chain,
+Broke my chain, broke my chain,
+They stole my watch and broke my chain, 
+My fair lady. 
+Up to jail you must go, 
+You must go, you must go,
+Up to jail you must go, my fair lady",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A10_(HS_6106_Track_04_FAINT).mp3,0.5260770975056689,"['here', 'are', 'the', 'robbers', 'coming', 'through', 'coming', 'through', 'coming', 'through', 'here', 'are', 'the', 'robbers', 'coming', 'through', 'my', 'fair', 'lady', 'what', 'did', 'the', 'robbers', 'do', 'on', 'you', 'do', 'on', 'you', 'do', 'on', 'you', 'what', 'did', 'the', 'robbers', 'do', 'on', 'you', 'my', 'fair', 'lady', 'they', 'stole', 'my', 'watch', 'and', 'broke', 'my', 'chain', 'broke', 'my', 'chain', 'broke', 'my', 'chain', 'they', 'stole', 'my', 'watch', 'and', 'broke', 'my', 'chain', 'my', 'fair', 'lady', 'up', 'to', 'jail', 'you', 'must', 'go', 'you', 'must', 'go', 'you', 'must', 'go', 'up', 'to', 'jail', 'you', 'must', 'go', 'my', 'fair', 'lady']"
+20,IE-2019-D-HLS-021,"In and out the windows, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"In and out the windows,
+In and out the windows,
+In and out the windows,
+As you have done before.
+Stand and face your partner,
+Stand and face your partner,
+Stand and face your partner,
+As you have done before.
+In and out the windows,
+In and out the windows,
+In and out the windows,
+As you have done before.
+Turn and kiss your partner,
+Turn and kiss your partner
+Turn and kiss your partner
+As you have done before.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A11_(HS_6814_Track_04_end_pruned.mp3,0.4077669902912621,"['in', 'and', 'out', 'the', 'windows', 'in', 'and', 'out', 'the', 'windows', 'in', 'and', 'out', 'the', 'windows', 'as', 'you', 'have', 'done', 'before', 'stand', 'and', 'face', 'your', 'partner', 'stand', 'and', 'face', 'your', 'partner', 'stand', 'and', 'face', 'your', 'partner', 'as', 'you', 'have', 'done', 'before', 'in', 'and', 'out', 'the', 'windows', 'in', 'and', 'out', 'the', 'windows', 'in', 'and', 'out', 'the', 'windows', 'as', 'you', 'have', 'done', 'before', 'turn', 'and', 'kiss', 'your', 'partner', 'turn', 'and', 'kiss', 'your', 'partner', 'turn', 'and', 'kiss', 'your', 'partner', 'as', 'you', 'have', 'done', 'before']"
+21,IE-2019-D-HLS-022,"Green gravel, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Green gravel, green gravel,
+Your grass is so green,
+You’re the fairest young damsel,
+That ever I’ve seen.
+I washed her, I dressed her,
+I robed her in silk,
+And I wrote down her name,
+With a glass pen and ink.
+Dear Eileen, dear Eileen,
+Your true love is dead,
+And I sent you a letter,
+To turn back your head.
+Green gravel, green gravel,
+Your grass is so green,
+You’re the fairest young damsel,
+That ever I’ve seen.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A12_(HS_6807_Track_18).mp3,0.684085510688836,"['green', 'gravel', 'green', 'gravel', 'your', 'grass', 'is', 'so', 'green', 'you', 're', 'the', 'fairest', 'young', 'damsel', 'that', 'ever', 'i', 've', 'seen', 'i', 'washed', 'her', 'i', 'dressed', 'her', 'i', 'robed', 'her', 'in', 'silk', 'and', 'i', 'wrote', 'down', 'her', 'name', 'with', 'a', 'glass', 'pen', 'and', 'ink', 'dear', 'eileen', 'dear', 'eileen', 'your', 'true', 'love', 'is', 'dead', 'and', 'i', 'sent', 'you', 'a', 'letter', 'to', 'turn', 'back', 'your', 'head', 'green', 'gravel', 'green', 'gravel', 'your', 'grass', 'is', 'so', 'green', 'you', 're', 'the', 'fairest', 'young', 'damsel', 'that', 'ever', 'i', 've', 'seen']"
+22,IE-2019-D-HLS-023,"I’m a little Dutch girl, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Oh I’m a little Dutch girl,
+A Dutch girl, a Dutch girl,
+Oh I’m a little Dutch girl
+From over the sea.
+Oh, I’m a little Dutch boy,
+A Dutch boy, a Dutch boy,
+Oh, I’m a little Dutch boy
+From over the sea.
+Oh, go ’way, I hate you,
+I hate you, I hate you,
+Oh, go ’way, I hate you,
+From over the sea.
+Oh why do you hate me,
+Hate me, hate me?
+Oh why do you hate me
+From over the sea?
+Because you hit my sister,
+My sister, my sister,
+Because you hit my sister
+From over the sea.
+Oh please will you forgive me,
+Forgive me, forgive me?
+Oh please will you forgive me
+From over the sea?
+Oh yes, I will forgive you,
+Forgive you, forgive you,
+Oh yes, I will forgive you,
+From over the sea
+Oh now we are together,
+Together, together,
+Oh now we are together
+From over the sea
+Oh now we are married,
+Married, married,
+Oh now we’re getting married
+From over the sea.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A13_(HS_6820_Track_04).mp3,0.38979118329466356,"['oh', 'i', 'm', 'a', 'little', 'dutch', 'girl', 'a', 'dutch', 'girl', 'a', 'dutch', 'girl', 'oh', 'i', 'm', 'a', 'little', 'dutch', 'girl', 'from', 'over', 'the', 'sea', 'oh', 'i', 'm', 'a', 'little', 'dutch', 'boy', 'a', 'dutch', 'boy', 'a', 'dutch', 'boy', 'oh', 'i', 'm', 'a', 'little', 'dutch', 'boy', 'from', 'over', 'the', 'sea', 'oh', 'go', 'way', 'i', 'hate', 'you', 'i', 'hate', 'you', 'i', 'hate', 'you', 'oh', 'go', 'way', 'i', 'hate', 'you', 'from', 'over', 'the', 'sea', 'oh', 'why', 'do', 'you', 'hate', 'me', 'hate', 'me', 'hate', 'me', 'oh', 'why', 'do', 'you', 'hate', 'me', 'from', 'over', 'the', 'sea', 'because', 'you', 'hit', 'my', 'sister', 'my', 'sister', 'my', 'sister', 'because', 'you', 'hit', 'my', 'sister', 'from', 'over', 'the', 'sea', 'oh', 'please', 'will', 'you', 'forgive', 'me', 'forgive', 'me', 'forgive', 'me', 'oh', 'please', 'will', 'you', 'forgive', 'me', 'from', 'over', 'the', 'sea', 'oh', 'yes', 'i', 'will', 'forgive', 'you', 'forgive', 'you', 'forgive', 'you', 'oh', 'yes', 'i', 'will', 'forgive', 'you', 'from', 'over', 'the', 'sea', 'oh', 'now', 'we', 'are', 'together', 'together', 'together', 'oh', 'now', 'we', 'are', 'together', 'from', 'over', 'the', 'sea', 'oh', 'now', 'we', 'are', 'married', 'married', 'married', 'oh', 'now', 'we', 're', 'getting', 'married', 'from', 'over', 'the', 'sea']"
+23,IE-2019-D-HLS-024,"Chase, chase, chase the hairy elephant, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Chase, chase, chase the hairy elephant,
+Whoever told a lie on baldy Deborah!
+That was on baldy Kitty.
+Chase, chase, chase the hairy elephant,
+Whoever told a lie on baldy Mary!
+That was on baldy Deborah.
+hase, chase, chase the hairy elephant,
+Whoever told a lie on baldy Kitty!
+That was on baldy Mary.
+Chase, chase, chase the hairy elephant,
+Whoever told a lie on baldy Mary!
+That was on baldy Deborah.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_053_(HS_6818_Track_17).mp3,0.4389027431421446,"['chase', 'chase', 'chase', 'the', 'hairy', 'elephant', 'whoever', 'told', 'a', 'lie', 'on', 'baldy', 'deborah', 'that', 'was', 'on', 'baldy', 'kitty', 'chase', 'chase', 'chase', 'the', 'hairy', 'elephant', 'whoever', 'told', 'a', 'lie', 'on', 'baldy', 'mary', 'that', 'was', 'on', 'baldy', 'deborah', 'hase', 'chase', 'chase', 'the', 'hairy', 'elephant', 'whoever', 'told', 'a', 'lie', 'on', 'baldy', 'kitty', 'that', 'was', 'on', 'baldy', 'mary', 'chase', 'chase', 'chase', 'the', 'hairy', 'elephant', 'whoever', 'told', 'a', 'lie', 'on', 'baldy', 'mary', 'that', 'was', 'on', 'baldy', 'deborah']"
+24,IE-2019-D-HLS-025,"The walls of Jerusalem, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Oh, the poor man lived outside the walls of Jerusalem,
+Glory, Hallelujah, hi-oh jerrum.
+The rich man lived inside the walls of Jerusalem,
+Glory, Hallelujah, hi-oh jerrum.
+The poor man went to the rich man’s door-ium,
+Glory, Hallelujah, hi-oh jerrum.
+The poor man asked for a breadie and a cheese-ium,
+Glory, Hallelujah, hi-oh jerrum.
+The rich man said ‘I’ll call the police-ium’.
+Glory, Hallelujah, hi-oh jerrum.
+Hi-oh jerrum, hi-oh jerrum
+Skiddle a mink a doodle um, skiddle a mink a doodle um,
+Glory, Hallelujah, hi-oh jerrum.
+Now the poor man died and he went straight to heaven-ium
+Glory, Hallelujah, hi-oh jerrum.
+He was fooling with the angels at a quarter past eleven-ium
+Glory, Hallelujah, hi-oh jerrum.
+Hi-oh jerrum,
+Hi-oh jerrum,
+Skiddle a mink a doodle um,
+Skiddle a mink a doodle um,
+Glory, Hallelujah, hi-oh jerrum.
+Now the rich man died and he didn’t fare so well-ium
+Glory, Hallelujah, hi-oh jerrum.
+He couldn’t go to heaven, so he had to go to hell-ium
+Glory, Hallelujah, hi-oh jerrum.
+Now the rich man asked for a whiskey and a sod-ium
+Glory, Hallelujah, hi-oh jerrum.
+The devil only shouted, ‘Shovel on the coal-ium.’
+Glory, Hallelujah, hi-oh jerrum.
+Hi-oh jerrum,
+Hi-oh jerrum,
+Skiddle a mink a doodle um,
+Skiddle a mink a doodle um,
+Glory, Hallelujah, hi-oh jerrum.
+Now the moral of my story is, the richie and the poor-ium
+Glory, Hallelujah, hi-oh jerrum.
+We’re all stony broke, so we’ll all go to heaven-ium
+Glory, Hallelujah, hi-oh jerrum.
+Hi-oh jerrum,
+Hi-oh jerrum,
+Skiddle a mink a doodle um,
+Skiddle a mink a doodle um,
+Glory, Hallelujah, hi-oh jerrum.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_061_HS_6810_Track_3).mp3,0.3151969981238274,"['oh', 'the', 'poor', 'man', 'lived', 'outside', 'the', 'walls', 'of', 'jerusalem', 'glory', 'hallelujah', 'jerrum', 'the', 'rich', 'man', 'lived', 'inside', 'the', 'walls', 'of', 'jerusalem', 'glory', 'hallelujah', 'jerrum', 'the', 'poor', 'man', 'went', 'to', 'the', 'rich', 'man', 's', 'glory', 'hallelujah', 'jerrum', 'the', 'poor', 'man', 'asked', 'for', 'a', 'breadie', 'and', 'a', 'glory', 'hallelujah', 'jerrum', 'the', 'rich', 'man', 'said', 'i', 'll', 'call', 'the', 'glory', 'hallelujah', 'jerrum', 'jerrum', 'jerrum', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'glory', 'hallelujah', 'jerrum', 'now', 'the', 'poor', 'man', 'died', 'and', 'he', 'went', 'straight', 'to', 'glory', 'hallelujah', 'jerrum', 'he', 'was', 'fooling', 'with', 'the', 'angels', 'at', 'a', 'quarter', 'past', 'glory', 'hallelujah', 'jerrum', 'jerrum', 'jerrum', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'glory', 'hallelujah', 'jerrum', 'now', 'the', 'rich', 'man', 'died', 'and', 'he', 'didn', 't', 'fare', 'so', 'glory', 'hallelujah', 'jerrum', 'he', 'couldn', 't', 'go', 'to', 'heaven', 'so', 'he', 'had', 'to', 'go', 'to', 'glory', 'hallelujah', 'jerrum', 'now', 'the', 'rich', 'man', 'asked', 'for', 'a', 'whiskey', 'and', 'a', 'glory', 'hallelujah', 'jerrum', 'the', 'devil', 'only', 'shouted', 'shovel', 'on', 'the', 'glory', 'hallelujah', 'jerrum', 'jerrum', 'jerrum', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'glory', 'hallelujah', 'jerrum', 'now', 'the', 'moral', 'of', 'my', 'story', 'is', 'the', 'richie', 'and', 'the', 'glory', 'hallelujah', 'jerrum', 'we', 're', 'all', 'stony', 'broke', 'so', 'we', 'll', 'all', 'go', 'to', 'glory', 'hallelujah', 'jerrum', 'jerrum', 'jerrum', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'skiddle', 'a', 'mink', 'a', 'doodle', 'um', 'glory', 'hallelujah', 'jerrum']"
+25,IE-2019-D-HLS-026,"My Mother Told Me [A Naughty Girl], song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"My mother told me
+If I was goodie
+That she would buy me
+A rubber dollie.
+My auntie told her
+I kissed a soldier
+And now she won’t buy me
+A rubber dollie.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_066_(HS_6818_Track_7).mp3,1.1688311688311688,"['my', 'mother', 'told', 'me', 'if', 'i', 'was', 'goodie', 'that', 'she', 'would', 'buy', 'me', 'a', 'rubber', 'dollie', 'my', 'auntie', 'told', 'her', 'i', 'kissed', 'a', 'soldier', 'and', 'now', 'she', 'won', 't', 'buy', 'me', 'a', 'rubber', 'dollie']"
+26,IE-2019-D-HLS-027,"I’m the wee faloorie man, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"I’m the wee faloorie man,
+Faloorie man, faloorie man,
+I’m the wee faloorie man,
+Come catch me if you can.
+Bw – w – w!",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_070_(HS_6112_(ITMA_2192g_Track_27))_FAINT.mp3,1.088,"['i', 'm', 'the', 'wee', 'faloorie', 'man', 'faloorie', 'man', 'faloorie', 'man', 'i', 'm', 'the', 'wee', 'faloorie', 'man', 'come', 'catch', 'me', 'if', 'you', 'can', 'bw', 'w', 'w']"
+27,IE-2019-D-HLS-028,In the alley,In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Down in the alley where the green grass grows
+See Raymond ******* washing his clothes.
+He sings, he sings, he sings so sweet,
+He calls for Ann ******* down the street.
+‘Ann, Ann, will you marry me?’
+‘Yes, dear, yes, dear, at half past three.
+Ice cakes, jam cakes, all for tea
+And we’ll have a jolly wedding at half past three.’",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_083_(HS_6818_Track_32).mp3,0.8664688427299704,"['down', 'in', 'the', 'alley', 'where', 'the', 'green', 'grass', 'grows', 'see', 'raymond', 'washing', 'his', 'clothes', 'he', 'sings', 'he', 'sings', 'he', 'sings', 'so', 'sweet', 'he', 'calls', 'for', 'ann', 'down', 'the', 'street', 'ann', 'ann', 'will', 'you', 'marry', 'me', 'yes', 'dear', 'yes', 'dear', 'at', 'half', 'past', 'three', 'ice', 'cakes', 'jam', 'cakes', 'all', 'for', 'tea', 'and', 'we', 'll', 'have', 'a', 'jolly', 'wedding', 'at', 'half', 'past', 'three']"
+28,IE-2019-D-HLS-029,"My aunt Jane she called me in, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"My aunt Jane she called me in,
+She made me tea in her wee tin,
+A penny bap,
+Sugar on the top,
+Three black balls out of her wee shop.
+My aunt Jane she called me in,
+She made me tea in her black tin.
+She called me back, I wouldn’t go,
+She shut the door on my wee toe.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_090_(240360_47).mp3,0.8539325842696629,"['my', 'aunt', 'jane', 'she', 'called', 'me', 'in', 'she', 'made', 'me', 'tea', 'in', 'her', 'wee', 'tin', 'a', 'penny', 'bap', 'sugar', 'on', 'the', 'top', 'three', 'black', 'balls', 'out', 'of', 'her', 'wee', 'shop', 'my', 'aunt', 'jane', 'she', 'called', 'me', 'in', 'she', 'made', 'me', 'tea', 'in', 'her', 'black', 'tin', 'she', 'called', 'me', 'back', 'i', 'wouldn', 't', 'go', 'she', 'shut', 'the', 'door', 'on', 'my', 'wee', 'toe']"
+29,IE-2019-D-HLS-030,"Chewing gum a penny a packet, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Chewing-gum a penny a packet,
+First you chew it, then you crack it,
+Then you stick it to your jacket,
+Chewing-gum a penny a packet.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_094_(HS_6820_Track_5).mp3,1.099236641221374,"['a', 'penny', 'a', 'packet', 'first', 'you', 'chew', 'it', 'then', 'you', 'crack', 'it', 'then', 'you', 'stick', 'it', 'to', 'your', 'jacket', 'a', 'penny', 'a', 'packet']"
+30,IE-2019-D-HLS-031,"Our Queen up the river, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Our Queen up the river
+With your yah! yah! yah!
+Our Queen up the river
+With your yah! yah! yah!
+Our Queen up the river
+And she’ll be up there for ever
+With your yah! yah!
+Yah! yah! yah!",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_099(i)_(239372_Track_03).mp3,0.7700534759358288,"['our', 'queen', 'up', 'the', 'river', 'with', 'your', 'yah', 'yah', 'yah', 'our', 'queen', 'up', 'the', 'river', 'with', 'your', 'yah', 'yah', 'yah', 'our', 'queen', 'up', 'the', 'river', 'and', 'she', 'll', 'be', 'up', 'there', 'for', 'ever', 'with', 'your', 'yah', 'yah', 'yah', 'yah', 'yah']"
+31,IE-2019-D-HLS-032,"Our Queen can burl her leg, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Our Queen can burl her leg,
+Burl her leg, burl her leg,
+Our Queen can burl her leg,
+Burl her leg.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_100_(239372_4).mp3,1.0309278350515463,"['our', 'queen', 'can', 'burl', 'her', 'leg', 'burl', 'her', 'leg', 'burl', 'her', 'leg', 'our', 'queen', 'can', 'burl', 'her', 'leg', 'burl', 'her', 'leg']"
+32,IE-2019-D-HLS-033,"Our Queen won, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Our Queen won,
+our Queen won,
+Yee-oh, bravo,
+our Queen won.
+The other had to run,
+the other had to run,
+Yee-oh, bravo,
+our Queen won.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_101_(HS_6807_Track_19).mp3,0.9924812030075187,"['our', 'queen', 'won', 'our', 'queen', 'won', 'bravo', 'our', 'queen', 'won', 'the', 'other', 'had', 'to', 'run', 'the', 'other', 'had', 'to', 'run', 'bravo', 'our', 'queen', 'won']"
+33,IE-2019-D-HLS-034,"Raddy addy and we’re not beat yet, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Raddy addy and we’re not beat yet,
+Raddy addy and we’re not beat yet,
+Raddy addy and we’re not beat yet,
+We’re not beat yet and we’re hardly.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_102_(HS_6807_Track_21).mp3,0.7682119205298014,"['raddy', 'addy', 'and', 'we', 're', 'not', 'beat', 'yet', 'raddy', 'addy', 'and', 'we', 're', 'not', 'beat', 'yet', 'raddy', 'addy', 'and', 'we', 're', 'not', 'beat', 'yet', 'we', 're', 'not', 'beat', 'yet', 'and', 'we', 're', 'hardly']"
+34,IE-2019-D-HLS-035,"Here she sits, a lovely creature, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Here she sits a lovely creature,
+Who she is I cannot tell;
+I will court her for her beauty,
+All I want’s a nice young girl,
+To be the Queen of May,
+To be the Queen of May,
+The darkie says he’ll marry her,
+He’ll marry her, he’ll marry her
+The darkie says he’ll marry her,
+Because she is a Queen.
+Because she is a Queen,
+Because she is a Queen,
+The darkie says he’ll marry her
+He’ll marry her, he’ll marry her,
+The darkie says he’ll marry her
+Because she is a Queen.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_103_(HS_6807_Track_17).mp3,0.5394190871369294,"['here', 'she', 'sits', 'a', 'lovely', 'creature', 'who', 'she', 'is', 'i', 'can', 'not', 'tell', 'i', 'will', 'court', 'her', 'for', 'her', 'beauty', 'all', 'i', 'want', 's', 'a', 'nice', 'young', 'girl', 'to', 'be', 'the', 'queen', 'of', 'may', 'to', 'be', 'the', 'queen', 'of', 'may', 'the', 'darkie', 'says', 'he', 'll', 'marry', 'her', 'he', 'll', 'marry', 'her', 'he', 'll', 'marry', 'her', 'the', 'darkie', 'says', 'he', 'll', 'marry', 'her', 'because', 'she', 'is', 'a', 'queen', 'because', 'she', 'is', 'a', 'queen', 'because', 'she', 'is', 'a', 'queen', 'the', 'darkie', 'says', 'he', 'll', 'marry', 'her', 'he', 'll', 'marry', 'her', 'he', 'll', 'marry', 'her', 'the', 'darkie', 'says', 'he', 'll', 'marry', 'her', 'because', 'she', 'is', 'a', 'queen']"
+35,IE-2019-D-HLS-036,"Grandma Gray, rhyme ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"‘Grandma, grandma Gray,
+Will you let us out to play?
+We’ll not go near the water
+To chase the ducks away.’
+‘No, dear children,
+it’s a very wet day.’
+‘Grandma, grandma Gray,
+Will you let us out to play?
+We’ll not go near the water
+To chase the ducks away.’
+‘Yes, dear children,
+it’s a very fine day.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_105_(239372_06_PRUNED).mp3,0.675,"['grandma', 'grandma', 'gray', 'will', 'you', 'let', 'us', 'out', 'to', 'play', 'we', 'll', 'not', 'go', 'near', 'the', 'water', 'to', 'chase', 'the', 'ducks', 'no', 'dear', 'children', 'it', 's', 'a', 'very', 'wet', 'grandma', 'grandma', 'gray', 'will', 'you', 'let', 'us', 'out', 'to', 'play', 'we', 'll', 'not', 'go', 'near', 'the', 'water', 'to', 'chase', 'the', 'ducks', 'yes', 'dear', 'children', 'it', 's', 'a', 'very', 'fine', 'day']"
+36,IE-2019-D-HLS-037,"We’ll join our hands together [Fermanagh mummers], song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"We’ll join our hands together
+And never fight no more,
+We’ll be as gallant comrades
+As we have been before,
+We’ll bless the master of this house
+And the mistress too
+And all the little children
+That round the table grew.
+With our pockets full of money
+And our hearts all full of cheer
+We wish you a merry Christmas
+And a bright New Year!",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_110(i).mp3,0.8862973760932945,"['we', 'll', 'join', 'our', 'hands', 'together', 'and', 'never', 'fight', 'no', 'more', 'we', 'll', 'be', 'as', 'gallant', 'comrades', 'as', 'we', 'have', 'been', 'before', 'we', 'll', 'bless', 'the', 'master', 'of', 'this', 'house', 'and', 'the', 'mistress', 'too', 'and', 'all', 'the', 'little', 'children', 'that', 'round', 'the', 'table', 'grew', 'with', 'our', 'pockets', 'full', 'of', 'money', 'and', 'our', 'hearts', 'all', 'full', 'of', 'cheer', 'we', 'wish', 'you', 'a', 'merry', 'christmas', 'and', 'a', 'bright', 'new', 'year']"
+37,IE-2019-D-HLS-038,"Here’s to you Tom Brown [Fermanagh mummers], song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"The twelve beats the eleven and the eleven beats the ten,
+We are a jolly company of stout, strong men;
+Here’s to you, Tom Brown, here’s to you with all my heart,
+We’ll have another glass or two this night before we part,
+Here’s to you, Tom Brown.
+The ten beats the nine and the nine beats the eight,
+We are a jolly company, we all walk straight;
+Here’s to you, Tom Brown, here’s to you with all my heart,
+We’ll have another glass or two this night before we part, 
+Here’s to you, Tom Brown.
+The nine beats the eight and the eight beats the seven,
+We are a jolly company and we’re going to heaven
+Here’s to you, Tom Brown, here’s to you with all my heart,
+We’ll have another glass or two this night before we part, 
+Here’s to you, Tom Brown.
+The seven beats the six and the six beats the five,
+We are a jolly company, we are, man alive!
+Here’s to you, Tom Brown, here’s to you with all my heart,
+We’ll have another glass or two this night before we part, 
+Here’s to you, Tom Brown.
+The five beats the four and the four beats the three, We are a jolly company and we’re all free
+Here’s to you, Tom Brown, here’s to you with all my heart,
+We’ll have another glass or two this night before we part, 
+Here’s to you, Tom Brown.
+The three beats the two and the two beats the one,
+We are a jolly company and now we’re done
+Here’s to you, Tom Brown, here’s to you with all my heart,
+We’ll have another glass or two this night before we part, 
+Here’s to you, Tom Brown.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_110(ii).mp3,0.2590879048248513,"['the', 'twelve', 'beats', 'the', 'eleven', 'and', 'the', 'eleven', 'beats', 'the', 'ten', 'we', 'are', 'a', 'jolly', 'company', 'of', 'stout', 'strong', 'men', 'here', 's', 'to', 'you', 'tom', 'brown', 'here', 's', 'to', 'you', 'with', 'all', 'my', 'heart', 'we', 'll', 'have', 'another', 'glass', 'or', 'two', 'this', 'night', 'before', 'we', 'part', 'here', 's', 'to', 'you', 'tom', 'brown', 'the', 'ten', 'beats', 'the', 'nine', 'and', 'the', 'nine', 'beats', 'the', 'eight', 'we', 'are', 'a', 'jolly', 'company', 'we', 'all', 'walk', 'straight', 'here', 's', 'to', 'you', 'tom', 'brown', 'here', 's', 'to', 'you', 'with', 'all', 'my', 'heart', 'we', 'll', 'have', 'another', 'glass', 'or', 'two', 'this', 'night', 'before', 'we', 'part', 'here', 's', 'to', 'you', 'tom', 'brown', 'the', 'nine', 'beats', 'the', 'eight', 'and', 'the', 'eight', 'beats', 'the', 'seven', 'we', 'are', 'a', 'jolly', 'company', 'and', 'we', 're', 'going', 'to', 'heaven', 'here', 's', 'to', 'you', 'tom', 'brown', 'here', 's', 'to', 'you', 'with', 'all', 'my', 'heart', 'we', 'll', 'have', 'another', 'glass', 'or', 'two', 'this', 'night', 'before', 'we', 'part', 'here', 's', 'to', 'you', 'tom', 'brown', 'the', 'seven', 'beats', 'the', 'six', 'and', 'the', 'six', 'beats', 'the', 'five', 'we', 'are', 'a', 'jolly', 'company', 'we', 'are', 'man', 'alive', 'here', 's', 'to', 'you', 'tom', 'brown', 'here', 's', 'to', 'you', 'with', 'all', 'my', 'heart', 'we', 'll', 'have', 'another', 'glass', 'or', 'two', 'this', 'night', 'before', 'we', 'part', 'here', 's', 'to', 'you', 'tom', 'brown', 'the', 'five', 'beats', 'the', 'four', 'and', 'the', 'four', 'beats', 'the', 'three', 'we', 'are', 'a', 'jolly', 'company', 'and', 'we', 're', 'all', 'free', 'here', 's', 'to', 'you', 'tom', 'brown', 'here', 's', 'to', 'you', 'with', 'all', 'my', 'heart', 'we', 'll', 'have', 'another', 'glass', 'or', 'two', 'this', 'night', 'before', 'we', 'part', 'here', 's', 'to', 'you', 'tom', 'brown', 'the', 'three', 'beats', 'the', 'two', 'and', 'the', 'two', 'beats', 'the', 'one', 'we', 'are', 'a', 'jolly', 'company', 'and', 'now', 'we', 're', 'done', 'here', 's', 'to', 'you', 'tom', 'brown', 'here', 's', 'to', 'you', 'with', 'all', 'my', 'heart', 'we', 'll', 'have', 'another', 'glass', 'or', 'two', 'this', 'night', 'before', 'we', 'part', 'here', 's', 'to', 'you', 'tom', 'brown']"
+38,IE-2019-D-HLS-039,"God bless the master of this house [Donegal mummers], song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"God bless the master of this house
+And the landlady also
+And all the little children around the table go,
+For we wish you a happy New Year, Year, Year,
+Ay, we wish you a happy New Year.
+With our pockets full of money
+And your barrels full of beer
+Well, we wish you a happy New Year, Year, Year,
+Ay, we wish you a happy New Year",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A28(ii)_(HS_6829_Track_8).mp3,0.7339449541284404,"['god', 'bless', 'the', 'master', 'of', 'this', 'house', 'and', 'the', 'landlady', 'also', 'and', 'all', 'the', 'little', 'children', 'around', 'the', 'table', 'go', 'for', 'we', 'wish', 'you', 'a', 'happy', 'new', 'year', 'year', 'year', 'ay', 'we', 'wish', 'you', 'a', 'happy', 'new', 'year', 'with', 'our', 'pockets', 'full', 'of', 'money', 'and', 'your', 'barrels', 'full', 'of', 'beer', 'well', 'we', 'wish', 'you', 'a', 'happy', 'new', 'year', 'year', 'year', 'ay', 'we', 'wish', 'you', 'a', 'happy', 'new', 'year']"
+39,IE-2019-D-HLS-040,"Rocking the cradle, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Oh it’s rocking the cradle,
+It’s rocking the cradle,
+It’s rocking the cradle
+And it’s singing Hee ba.
+La deedle dee dee dee dee
+Deedle dee dee dee
+Och it’s rocking the cradle
+And singing Hee ba.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_112(i)_(HS_6807_Track_24).mp3,0.7254901960784313,"['oh', 'it', 's', 'rocking', 'the', 'cradle', 'it', 's', 'rocking', 'the', 'cradle', 'it', 's', 'rocking', 'the', 'cradle', 'and', 'it', 's', 'singing', 'hee', 'ba', 'la', 'deedle', 'dee', 'dee', 'dee', 'dee', 'deedle', 'dee', 'dee', 'dee', 'och', 'it', 's', 'rocking', 'the', 'cradle', 'and', 'singing', 'hee', 'ba']"
+40,IE-2019-D-HLS-041,"You’re a wee bonny wean, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"You’re a wee bonny wean,
+You’re a wee bonny wean,
+You’re a wee bonny wee wean,
+You’re a wee bonny wee wean.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_113_(HS_6807_Track_25).mp3,0.8695652173913043,"['you', 're', 'a', 'wee', 'bonny', 'wean', 'you', 're', 'a', 'wee', 'bonny', 'wean', 'you', 're', 'a', 'wee', 'bonny', 'wee', 'wean', 'you', 're', 'a', 'wee', 'bonny', 'wee', 'wean']"
+41,IE-2019-D-HLS-042,"Minnie Picken on the shore, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Minnie Picken on the shore.
+Gathering winkles off Culmore,
+Turned around and give a roar:
+– What the divil ails ye?
+A-ring deedle lil de dum
+Dithery dum de doodle um
+Ring deedle lil de dum
+Doodle lil de da dee
+A-ring deedle lil de dum
+Dithery dum de doodle um
+Ring deedle lil de dum
+Doodle lil de da dee
+Jane McNeill’s in love with me
+And I’m as happy as I can be.
+How would you like if you were me?
+Fal de deedle di do.
+Jane she’s neat and Jane she’s fat,
+She wears her hair beneath her hat;
+What do you think about that?
+Fal de deedle di do.
+A-ring deedle lil de dum
+Dithery dum de doodle um
+Ring deedle lil de dum
+Doodle lil de da dee
+A-ring deedle lil de dum
+Dithery dum de doodle um
+Ring deedle lil de dum
+Fal de deedle di do.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_115_HS_6814_Track_1).mp3,0.5074224021592443,"['minnie', 'picken', 'on', 'the', 'shore', 'gathering', 'winkles', 'off', 'culmore', 'turned', 'around', 'and', 'give', 'a', 'roar', 'what', 'the', 'divil', 'ails', 'ye', 'deedle', 'lil', 'de', 'dum', 'dithery', 'dum', 'de', 'doodle', 'um', 'ring', 'deedle', 'lil', 'de', 'dum', 'doodle', 'lil', 'de', 'da', 'dee', 'deedle', 'lil', 'de', 'dum', 'dithery', 'dum', 'de', 'doodle', 'um', 'ring', 'deedle', 'lil', 'de', 'dum', 'doodle', 'lil', 'de', 'da', 'dee', 'jane', 'mcneill', 's', 'in', 'love', 'with', 'me', 'and', 'i', 'm', 'as', 'happy', 'as', 'i', 'can', 'be', 'how', 'would', 'you', 'like', 'if', 'you', 'were', 'me', 'fal', 'de', 'deedle', 'di', 'do', 'jane', 'she', 's', 'neat', 'and', 'jane', 'she', 's', 'fat', 'she', 'wears', 'her', 'hair', 'beneath', 'her', 'hat', 'what', 'do', 'you', 'think', 'about', 'that', 'fal', 'de', 'deedle', 'di', 'do', 'deedle', 'lil', 'de', 'dum', 'dithery', 'dum', 'de', 'doodle', 'um', 'ring', 'deedle', 'lil', 'de', 'dum', 'doodle', 'lil', 'de', 'da', 'dee', 'deedle', 'lil', 'de', 'dum', 'dithery', 'dum', 'de', 'doodle', 'um', 'ring', 'deedle', 'lil', 'de', 'dum', 'fal', 'de', 'deedle', 'di', 'do']"
+42,IE-2019-D-HLS-043,"Love will you marry me?, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Love, will you marry me,
+Marry me, marry me,
+Love, will you marry me,
+And take me out of danger?
+This is the way the teacher stands,
+This is the way she holds her hands,
+This is the way she combs her hair,
+And this is the way she dances.
+Dy deedle oodle um
+Dithery aydle oodle um
+Da rowdle doodle dee,
+Doodle diddle doo dum,
+Dy deedle oodle um
+Dithery aydle oodle um
+Da rowdle doodle dee,
+Doodle diddle doo dum.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_116_HS_6107f_Track_3.mp3,0.5742092457420924,"['love', 'will', 'you', 'marry', 'me', 'marry', 'me', 'marry', 'me', 'love', 'will', 'you', 'marry', 'me', 'and', 'take', 'me', 'out', 'of', 'danger', 'this', 'is', 'the', 'way', 'the', 'teacher', 'stands', 'this', 'is', 'the', 'way', 'she', 'holds', 'her', 'hands', 'this', 'is', 'the', 'way', 'she', 'combs', 'her', 'hair', 'and', 'this', 'is', 'the', 'way', 'she', 'dances', 'dy', 'deedle', 'oodle', 'um', 'dithery', 'aydle', 'oodle', 'um', 'da', 'rowdle', 'doodle', 'dee', 'doodle', 'diddle', 'doo', 'dum', 'dy', 'deedle', 'oodle', 'um', 'dithery', 'aydle', 'oodle', 'um', 'da', 'rowdle', 'doodle', 'dee', 'doodle', 'diddle', 'doo', 'dum']"
+43,IE-2019-D-HLS-044,"When I was young I had no sense, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"When I was young I had no sense,
+I bought a fiddle for eighteen pence
+And all the tunes that I could play
+Was ‘O’er the hill and far away’.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_117_(HS_6807_Track_26).mp3,1.3517241379310345,"['when', 'i', 'was', 'young', 'i', 'had', 'no', 'sense', 'i', 'bought', 'a', 'fiddle', 'for', 'eighteen', 'pence', 'and', 'all', 'the', 'tunes', 'that', 'i', 'could', 'play', 'was', 'o', 'er', 'the', 'hill', 'and', 'far', 'away']"
+44,IE-2019-D-HLS-045,"I love my love far better, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"As I roved out one fine summer’s night
+For to look for recreation
+My heart was light and free from care,
+Quite happy in my station;
+Down by a transparent river clear
+I met a comely maiden there
+With a garland of flowers on her head she did wear
+For to shade the sun from her beauty.
+You gods, oh gods of this divine,
+Come hand my love a letter,
+That gave to me this mortal wound,
+No one could love her better.
+Far more than fishes likes to swim,
+Far more than linnets likes to sing,
+Far better than the bee loves the flowery vale
+I love my love far better.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_118_(HS_6813_Track_3).mp3,0.7813620071684588,"['as', 'i', 'roved', 'out', 'one', 'fine', 'summer', 's', 'night', 'for', 'to', 'look', 'for', 'recreation', 'my', 'heart', 'was', 'light', 'and', 'free', 'from', 'care', 'quite', 'happy', 'in', 'my', 'station', 'down', 'by', 'a', 'transparent', 'river', 'clear', 'i', 'met', 'a', 'comely', 'maiden', 'there', 'with', 'a', 'garland', 'of', 'flowers', 'on', 'her', 'head', 'she', 'did', 'wear', 'for', 'to', 'shade', 'the', 'sun', 'from', 'her', 'beauty', 'you', 'gods', 'oh', 'gods', 'of', 'this', 'divine', 'come', 'hand', 'my', 'love', 'a', 'letter', 'that', 'gave', 'to', 'me', 'this', 'mortal', 'wound', 'no', 'one', 'could', 'love', 'her', 'better', 'far', 'more', 'than', 'fishes', 'likes', 'to', 'swim', 'far', 'more', 'than', 'linnets', 'likes', 'to', 'sing', 'far', 'better', 'than', 'the', 'bee', 'loves', 'the', 'flowery', 'vale', 'i', 'love', 'my', 'love', 'far', 'better']"
+45,IE-2019-D-HLS-046,"The dark-eyed gipsy, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"There was three gipsies lived in the East:
+They sang so sweet and bonny, oh,
+They sang so sweet, so very sweet,
+They charmed the heart of the lady, oh.
+When Charles he came home late at night
+Enquiring for his lady, oh,
+‘She’s gone, she’s gone’, said his own waiting-man,
+‘She has followed the dark-eyed gipsy, oh.’
+[‘Then saddle me my milk-white steed –
+The brown one’s not so speedy, oh –
+That I may ride the whole length of the night
+Till I find out the dark-eyed gipsy, oh.’]
+Then he rode North and he rode South,
+He rode East and Westwards, oh,
+Until he met with his own wedded wife,
+And she following the dark-eyed gipsy, oh.
+‘Will you forsake your house and land?
+Will you forsake your children, oh?
+Will you forsake your own wedded lord
+And follow the dark-eyed gipsy, oh?’
+‘What do I care for house and land?
+What do I care for my children, oh?
+What do I care for my own wedded lord
+When I followed the dark-eyed gipsy, oh!’
+She took the garment that she wore,
+She bound it as a head-dress, oh,
+Saying ‘I’ll eat the grass, I’ll drink the dew
+And follow the dark-eyed gipsy, oh.’",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_119_(HS_6105_ITMA_2100a_Track_10).mp3,0.5368888888888889,"['there', 'was', 'three', 'gipsies', 'lived', 'in', 'the', 'east', 'they', 'sang', 'so', 'sweet', 'and', 'bonny', 'oh', 'they', 'sang', 'so', 'sweet', 'so', 'very', 'sweet', 'they', 'charmed', 'the', 'heart', 'of', 'the', 'lady', 'oh', 'when', 'charles', 'he', 'came', 'home', 'late', 'at', 'night', 'enquiring', 'for', 'his', 'lady', 'oh', 'she', 's', 'gone', 'she', 's', 'gone', 'said', 'his', 'own', 'she', 'has', 'followed', 'the', 'gipsy', 'then', 'saddle', 'me', 'my', 'steed', 'the', 'brown', 'one', 's', 'not', 'so', 'speedy', 'oh', 'that', 'i', 'may', 'ride', 'the', 'whole', 'length', 'of', 'the', 'night', 'till', 'i', 'find', 'out', 'the', 'gipsy', 'then', 'he', 'rode', 'north', 'and', 'he', 'rode', 'south', 'he', 'rode', 'east', 'and', 'westwards', 'oh', 'until', 'he', 'met', 'with', 'his', 'own', 'wedded', 'wife', 'and', 'she', 'following', 'the', 'gipsy', 'oh', 'will', 'you', 'forsake', 'your', 'house', 'and', 'land', 'will', 'you', 'forsake', 'your', 'children', 'oh', 'will', 'you', 'forsake', 'your', 'own', 'wedded', 'lord', 'and', 'follow', 'the', 'gipsy', 'oh', 'what', 'do', 'i', 'care', 'for', 'house', 'and', 'land', 'what', 'do', 'i', 'care', 'for', 'my', 'children', 'oh', 'what', 'do', 'i', 'care', 'for', 'my', 'own', 'wedded', 'lord', 'when', 'i', 'followed', 'the', 'gipsy', 'oh', 'she', 'took', 'the', 'garment', 'that', 'she', 'wore', 'she', 'bound', 'it', 'as', 'a', 'oh', 'saying', 'i', 'll', 'eat', 'the', 'grass', 'i', 'll', 'drink', 'the', 'dew', 'and', 'follow', 'the', 'gipsy', 'oh']"
+46,IE-2019-D-HLS-047,"The maid of Culmore, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"From fair Londonderry to sweet London town
+There is no better harbour around can be found,
+Where the young girl each evening does walk round the shore And the joy-bells were ringing the maid of Coolmore.
+The first time I saw my love she passed me by
+And the next time I saw her she bid me goodbye,
+But the last time I saw her she grieved my heart sore
+As she sailed down Lough Foyle and away from Coolmore.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_120_(HS_6943_Track_6).mp3,0.8275862068965517,"['from', 'fair', 'londonderry', 'to', 'sweet', 'london', 'town', 'there', 'is', 'no', 'better', 'harbour', 'around', 'can', 'be', 'found', 'where', 'the', 'young', 'girl', 'each', 'evening', 'does', 'walk', 'round', 'the', 'shore', 'and', 'the', 'were', 'ringing', 'the', 'maid', 'of', 'coolmore', 'the', 'first', 'time', 'i', 'saw', 'my', 'love', 'she', 'passed', 'me', 'by', 'and', 'the', 'next', 'time', 'i', 'saw', 'her', 'she', 'bid', 'me', 'goodbye', 'but', 'the', 'last', 'time', 'i', 'saw', 'her', 'she', 'grieved', 'my', 'heart', 'sore', 'as', 'she', 'sailed', 'down', 'lough', 'foyle', 'and', 'away', 'from', 'coolmore']"
+47,IE-2019-D-HLS-048,"B’fhearr liom réal beag, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,Irish,,,,,"B’fhearr liom réal beag,
+Réal beag deas.
+B’fhearr liom réal beag
+Ná rud a bhíos sa domhan.
+Chaith mé réal beag,
+Réal beag deas,
+Agus thug mé réal
+Abhaile chuig mo mhnaoi",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_121_(HS_6835_Track_10).mp3,1.005464480874317,"['b', 'fhearr', 'liom', 'réal', 'beag', 'réal', 'beag', 'deas', 'b', 'fhearr', 'liom', 'réal', 'beag', 'ná', 'rud', 'a', 'bhíos', 'sa', 'domhan', 'chaith', 'mé', 'réal', 'beag', 'réal', 'beag', 'deas', 'agus', 'thug', 'mé', 'réal', 'abhaile', 'chuig', 'mo', 'mhnaoi']"
+48,IE-2019-D-HLS-049,"Obadiah, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Says the one Obadiah to the tother Obadiah,
+‘Obadiah, Obadiah, I am dry!’
+Says the tother Obadiah to the first Obadiah,
+‘Obadiah, Obadiah, so am I!’",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_122_(HS_6805_Track_09).mp3,0.9230769230769231,"['says', 'the', 'one', 'obadiah', 'to', 'the', 'tother', 'obadiah', 'obadiah', 'obadiah', 'i', 'am', 'dry', 'says', 'the', 'tother', 'obadiah', 'to', 'the', 'first', 'obadiah', 'obadiah', 'obadiah', 'so', 'am', 'i']"
+49,IE-2019-D-HLS-050,"John Barbour, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"There was a lord lived in this town,
+He had only one loved daughter Jane;
+And as she stood in her father’s castle walls
+She was watching the ship sails on, on,
+She was watching the ship sails on.
+‘What ails you, what ails you?’ her father did say,
+‘You look so pale and wan;
+Nor have you got some sore sickness,’ he says,
+‘Nor deceived by some young man, man,
+Nor deceived by some young man.’
+‘I have not got sore nor sickness’, she says,
+‘Nor deceived by no young man,
+But the truth unto you, my father, I will tell:
+My true love stops too long, long,
+My true love stops too long.’
+‘Is your true love a knight nor a lord,’ he says,
+‘Nor is he a man of fame,
+Nor is he one of our seamen bold
+That ploughs the raging main, main?
+That ploughs the raging main.’
+‘He is not a knight nor a lord,’ she says,
+‘Nor he is not a man of fame
+But he is one of our seamen bold:
+John Barbour is his name, name,
+John Barbour is his name.’
+‘If that is so, dear daughter’, he says,
+‘That you fell in love with he,
+But before eight o’clock on tomorrow morning
+I will hang him to a tree, tree,
+I will hang him to a tree.’
+‘If you’ll hang John Barbour, dear father,’ she says
+‘And hang him to a tree,
+But before eight o’clock on tomorrow morning
+I will die as well as he, he,
+I will die as well as he’
+Then he called all his merry men in
+By one, by two and by three,
+And the very man that always used to come first
+Was the very last man came he, he,
+the very last man came he.
+His stockings they were of the grass-green silk
+And his coat of the navy blue
+And his skin was as white as any milk
+That ever your eyes had seen, seen,
+That ever your eyes had seen.
+‘It’s no wonder now, dear daughter,’ he says
+‘That you fell in love with he
+For if I was a woman nor though I am a man
+My bedfellow he would be, be
+My bedfellow he would be’
+‘Will you marry my daughter now,’ he said
+‘With the faith of my own right hand?
+She can eat and drink at my own table
+And be heir of all my land, land,
+And be heir of all my land’
+‘I will marry your daughter now,’ he said
+‘With the faith of my own right hand.
+She can eat and drink at my own table
+And a fig for all your land, land,
+And a fig for all your land.
+For now John Barbour it is my name
+And a seaman to you I only stand,
+For I’ve just got as good living as you
+I’m the mayor of all Creveland, land
+I’m the mayor of all Creveland’
+He mounted his love on a milk-white steed
+And they rode unto a bay
+And they have as much land as you could walk round
+For the length of a long summer’s day!",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_123_(239602_01_110_percent).mp3,0.43027276219746446,"['there', 'was', 'a', 'lord', 'lived', 'in', 'this', 'town', 'he', 'had', 'only', 'one', 'loved', 'daughter', 'jane', 'and', 'as', 'she', 'stood', 'in', 'her', 'father', 's', 'castle', 'walls', 'she', 'was', 'watching', 'the', 'ship', 'sails', 'on', 'on', 'she', 'was', 'watching', 'the', 'ship', 'sails', 'on', 'what', 'ails', 'you', 'what', 'ails', 'you', 'her', 'father', 'did', 'say', 'you', 'look', 'so', 'pale', 'and', 'wan', 'nor', 'have', 'you', 'got', 'some', 'sore', 'sickness', 'he', 'says', 'nor', 'deceived', 'by', 'some', 'young', 'man', 'man', 'nor', 'deceived', 'by', 'some', 'young', 'i', 'have', 'not', 'got', 'sore', 'nor', 'sickness', 'she', 'says', 'nor', 'deceived', 'by', 'no', 'young', 'man', 'but', 'the', 'truth', 'unto', 'you', 'my', 'father', 'i', 'will', 'tell', 'my', 'true', 'love', 'stops', 'too', 'long', 'long', 'my', 'true', 'love', 'stops', 'too', 'is', 'your', 'true', 'love', 'a', 'knight', 'nor', 'a', 'lord', 'he', 'says', 'nor', 'is', 'he', 'a', 'man', 'of', 'fame', 'nor', 'is', 'he', 'one', 'of', 'our', 'seamen', 'bold', 'that', 'ploughs', 'the', 'raging', 'main', 'main', 'that', 'ploughs', 'the', 'raging', 'he', 'is', 'not', 'a', 'knight', 'nor', 'a', 'lord', 'she', 'says', 'nor', 'he', 'is', 'not', 'a', 'man', 'of', 'fame', 'but', 'he', 'is', 'one', 'of', 'our', 'seamen', 'bold', 'john', 'barbour', 'is', 'his', 'name', 'name', 'john', 'barbour', 'is', 'his', 'if', 'that', 'is', 'so', 'dear', 'daughter', 'he', 'says', 'that', 'you', 'fell', 'in', 'love', 'with', 'he', 'but', 'before', 'eight', 'o', 'clock', 'on', 'tomorrow', 'morning', 'i', 'will', 'hang', 'him', 'to', 'a', 'tree', 'tree', 'i', 'will', 'hang', 'him', 'to', 'a', 'if', 'you', 'll', 'hang', 'john', 'barbour', 'dear', 'father', 'she', 'says', 'and', 'hang', 'him', 'to', 'a', 'tree', 'but', 'before', 'eight', 'o', 'clock', 'on', 'tomorrow', 'morning', 'i', 'will', 'die', 'as', 'well', 'as', 'he', 'he', 'i', 'will', 'die', 'as', 'well', 'as', 'he', 'then', 'he', 'called', 'all', 'his', 'merry', 'men', 'in', 'by', 'one', 'by', 'two', 'and', 'by', 'three', 'and', 'the', 'very', 'man', 'that', 'always', 'used', 'to', 'come', 'first', 'was', 'the', 'very', 'last', 'man', 'came', 'he', 'he', 'the', 'very', 'last', 'man', 'came', 'he', 'his', 'stockings', 'they', 'were', 'of', 'the', 'silk', 'and', 'his', 'coat', 'of', 'the', 'navy', 'blue', 'and', 'his', 'skin', 'was', 'as', 'white', 'as', 'any', 'milk', 'that', 'ever', 'your', 'eyes', 'had', 'seen', 'seen', 'that', 'ever', 'your', 'eyes', 'had', 'seen', 'it', 's', 'no', 'wonder', 'now', 'dear', 'daughter', 'he', 'says', 'that', 'you', 'fell', 'in', 'love', 'with', 'he', 'for', 'if', 'i', 'was', 'a', 'woman', 'nor', 'though', 'i', 'am', 'a', 'man', 'my', 'bedfellow', 'he', 'would', 'be', 'be', 'my', 'bedfellow', 'he', 'would', 'be', 'will', 'you', 'marry', 'my', 'daughter', 'now', 'he', 'said', 'with', 'the', 'faith', 'of', 'my', 'own', 'right', 'hand', 'she', 'can', 'eat', 'and', 'drink', 'at', 'my', 'own', 'table', 'and', 'be', 'heir', 'of', 'all', 'my', 'land', 'land', 'and', 'be', 'heir', 'of', 'all', 'my', 'land', 'i', 'will', 'marry', 'your', 'daughter', 'now', 'he', 'said', 'with', 'the', 'faith', 'of', 'my', 'own', 'right', 'hand', 'she', 'can', 'eat', 'and', 'drink', 'at', 'my', 'own', 'table', 'and', 'a', 'fig', 'for', 'all', 'your', 'land', 'land', 'and', 'a', 'fig', 'for', 'all', 'your', 'land', 'for', 'now', 'john', 'barbour', 'it', 'is', 'my', 'name', 'and', 'a', 'seaman', 'to', 'you', 'i', 'only', 'stand', 'for', 'i', 've', 'just', 'got', 'as', 'good', 'living', 'as', 'you', 'i', 'm', 'the', 'mayor', 'of', 'all', 'creveland', 'land', 'i', 'm', 'the', 'mayor', 'of', 'all', 'creveland', 'he', 'mounted', 'his', 'love', 'on', 'a', 'steed', 'and', 'they', 'rode', 'unto', 'a', 'bay', 'and', 'they', 'have', 'as', 'much', 'land', 'as', 'you', 'could', 'walk', 'round', 'for', 'the', 'length', 'of', 'a', 'long', 'summer', 's', 'day']"
+50,IE-2019-D-HLS-051,"The Kerry recruit, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"When I was in Ireland and digging up land
+With me brogues on me feet and me spade in me hand,
+Oh, up came a sergeant, said he, ‘Would you list?’
+‘Arrah, grá mo chroí, sergeant, gi’ me a hould of your fist,’,
+Singing, Taddy hi ho, taddy hi ho,
+Wack fal de doodle, Taddy hi ho.
+He gave me five bob, he said he’d give me more;
+‘Call up to headquarters, I’ll pay off your score.’ ‘Headquarters, headquarters, headquarters,’ says I,
+If I’m going to be quartered, sir I’ll bid you good-bye,’ Singing, Taddy hi ho, taddy hi ho,
+Wack fal de doodle, singing Taddy hi ho.
+When I listed to sea I was sent
+On board a big ship called the Bonny Dundee
+Three sticks in the middle all covered with a sheet
+And she walked along the water without any feet!
+Singing, Taddy hi ho, taddy hi ho,
+Wack fal de doodle, singing Taddy hi ho.
+And when I was listed to India I was sent,
+With climbing up rocks my knees were all bent;
+I listed for seven, thank God it’s not ten
+I’ll go home to old Ireland and I’ll dig turf again
+Singing, Taddy hi ho, taddy hi ho,
+Wack fal de doodle, singing Taddy hi ho.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_126_870_ITMA_MP3.mp3,0.5508550855085509,"['when', 'i', 'was', 'in', 'ireland', 'and', 'digging', 'up', 'land', 'with', 'me', 'brogues', 'on', 'me', 'feet', 'and', 'me', 'spade', 'in', 'me', 'hand', 'oh', 'up', 'came', 'a', 'sergeant', 'said', 'he', 'would', 'you', 'list', 'arrah', 'grá', 'mo', 'chroí', 'sergeant', 'gi', 'me', 'a', 'hould', 'of', 'your', 'fist', 'singing', 'taddy', 'hi', 'ho', 'taddy', 'hi', 'ho', 'wack', 'fal', 'de', 'doodle', 'taddy', 'hi', 'ho', 'he', 'gave', 'me', 'five', 'bob', 'he', 'said', 'he', 'd', 'give', 'me', 'more', 'call', 'up', 'to', 'headquarters', 'i', 'll', 'pay', 'off', 'your', 'headquarters', 'headquarters', 'headquarters', 'says', 'i', 'if', 'i', 'm', 'going', 'to', 'be', 'quartered', 'sir', 'i', 'll', 'bid', 'you', 'singing', 'taddy', 'hi', 'ho', 'taddy', 'hi', 'ho', 'wack', 'fal', 'de', 'doodle', 'singing', 'taddy', 'hi', 'ho', 'when', 'i', 'listed', 'to', 'sea', 'i', 'was', 'sent', 'on', 'board', 'a', 'big', 'ship', 'called', 'the', 'bonny', 'dundee', 'three', 'sticks', 'in', 'the', 'middle', 'all', 'covered', 'with', 'a', 'sheet', 'and', 'she', 'walked', 'along', 'the', 'water', 'without', 'any', 'feet', 'singing', 'taddy', 'hi', 'ho', 'taddy', 'hi', 'ho', 'wack', 'fal', 'de', 'doodle', 'singing', 'taddy', 'hi', 'ho', 'and', 'when', 'i', 'was', 'listed', 'to', 'india', 'i', 'was', 'sent', 'with', 'climbing', 'up', 'rocks', 'my', 'knees', 'were', 'all', 'bent', 'i', 'listed', 'for', 'seven', 'thank', 'god', 'it', 's', 'not', 'ten', 'i', 'll', 'go', 'home', 'to', 'old', 'ireland', 'and', 'i', 'll', 'dig', 'turf', 'again', 'singing', 'taddy', 'hi', 'ho', 'taddy', 'hi', 'ho', 'wack', 'fal', 'de', 'doodle', 'singing', 'taddy', 'hi', 'ho']"
+51,IE-2019-D-HLS-052,"My love she’s but a lassie, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Oh, my love she’s but a lassie, oh,
+A lassie, oh, a lassie, oh;
+I will let her stand a year or two
+And she’ll not be half as saucy, oh.
+For I kissed her once, she never said, No
+And then I kissed her twice my love to show
+And she says, Your whiskers tickles me so!
+Keep on doing it, Sandy, oh!",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A30_(817-ITMA-MP3).mp3,0.9158249158249159,"['oh', 'my', 'love', 'she', 's', 'but', 'a', 'lassie', 'oh', 'a', 'lassie', 'oh', 'a', 'lassie', 'oh', 'i', 'will', 'let', 'her', 'stand', 'a', 'year', 'or', 'two', 'and', 'she', 'll', 'not', 'be', 'half', 'as', 'saucy', 'oh', 'for', 'i', 'kissed', 'her', 'once', 'she', 'never', 'said', 'no', 'and', 'then', 'i', 'kissed', 'her', 'twice', 'my', 'love', 'to', 'show', 'and', 'she', 'says', 'your', 'whiskers', 'tickles', 'me', 'so', 'keep', 'on', 'doing', 'it', 'sandy', 'oh']"
+52,IE-2019-D-HLS-053,"Did you ever see the devil and his wooden leg and shovel, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Did you ever see the divil and his wooden leg and shovel
+Digging taties in the garden and his tail cocked up?
+Did you ever see the divil and his wooden leg and shovel
+Digging taties in the garden and his tail cocked up?",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A32_(239784_A37).mp3,0.730593607305936,"['did', 'you', 'ever', 'see', 'the', 'divil', 'and', 'his', 'wooden', 'leg', 'and', 'shovel', 'digging', 'taties', 'in', 'the', 'garden', 'and', 'his', 'tail', 'cocked', 'up', 'did', 'you', 'ever', 'see', 'the', 'divil', 'and', 'his', 'wooden', 'leg', 'and', 'shovel', 'digging', 'taties', 'in', 'the', 'garden', 'and', 'his', 'tail', 'cocked', 'up']"
+53,IE-2019-D-HLS-054,"Some say the divil’s dead, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Some says the divil’s dead,
+Some says he’s hardly.
+Some says the divil’s dead
+And buried in Killarney.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A33_(HS_6803_Track_07).mp3,1.2592592592592593,"['some', 'says', 'the', 'divil', 's', 'dead', 'some', 'says', 'he', 's', 'hardly', 'some', 'says', 'the', 'divil', 's', 'dead', 'and', 'buried', 'in', 'killarney']"
+54,IE-2019-D-HLS-055,"Wee Magee and a half-a-dozen more, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"Wee Magee and a half-a-dozen more
+Were lying on the sawdust and the sawdust on the floor
+There was such a gathering crowd that we’d never seen before.
+Wee Magee and a half-a-dozen more.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A36_(HS_6105_ITMA_2100b_Track_20).mp3,1.0267379679144386,"['wee', 'magee', 'and', 'a', 'more', 'were', 'lying', 'on', 'the', 'sawdust', 'and', 'the', 'sawdust', 'on', 'the', 'floor', 'there', 'was', 'such', 'a', 'gathering', 'crowd', 'that', 'we', 'd', 'never', 'seen', 'before', 'wee', 'magee', 'and', 'a', 'more']"
+55,IE-2019-D-HLS-056,"For my daddy goes to meeting, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"For my daddy goes to Meeting And my mammy goes to Mass
+And I take a rattle At the Cuckoo’s nest.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A37_Track_22_(All_the_days_disc_3_track_22).mp3,1.510204081632653,"['for', 'my', 'daddy', 'goes', 'to', 'meeting', 'and', 'my', 'mammy', 'goes', 'to', 'mass', 'and', 'i', 'take', 'a', 'rattle', 'at', 'the', 'cuckoo', 's', 'nest']"
+56,IE-2019-D-HLS-057,"My love wears the tarry trousers, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"My love wears the tarry trousers,
+My love wears the jacket blue,
+My love sails on another ocean,
+So, young man, away with you.
+Why do you die so much on beauty?
+It’s a flower that’ll soon decay.
+Like the rose that blooms in summer
+When winter comes it dies away.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A38_(HS_6125_(ITMA_2193d_track_25%2C_clip_of_radio_talk).mp3,1.0075187969924813,"['my', 'love', 'wears', 'the', 'tarry', 'trousers', 'my', 'love', 'wears', 'the', 'jacket', 'blue', 'my', 'love', 'sails', 'on', 'another', 'ocean', 'so', 'young', 'man', 'away', 'with', 'you', 'why', 'do', 'you', 'die', 'so', 'much', 'on', 'beauty', 'it', 's', 'a', 'flower', 'that', 'll', 'soon', 'decay', 'like', 'the', 'rose', 'that', 'blooms', 'in', 'summer', 'when', 'winter', 'comes', 'it', 'dies', 'away']"
+57,IE-2019-D-HLS-058,"I’ll climb up a high high tree, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"I’ll climb up a high, high tree
+And I’ll rob a rich bird’s nest
+And I’ll come down without a frown
+And I’ll wed the one that I love best.
+For T it stands for Tom, my dear,
+And J for my love John
+And W stands for sweet William
+For he is the fairest one.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A39_(HS_61_30_(ITMA_2194a_Track_04)).mp3,0.9465648854961832,"['i', 'll', 'climb', 'up', 'a', 'high', 'high', 'tree', 'and', 'i', 'll', 'rob', 'a', 'rich', 'bird', 's', 'nest', 'and', 'i', 'll', 'come', 'down', 'without', 'a', 'frown', 'and', 'i', 'll', 'wed', 'the', 'one', 'that', 'i', 'love', 'best', 'for', 't', 'it', 'stands', 'for', 'tom', 'my', 'dear', 'and', 'j', 'for', 'my', 'love', 'john', 'and', 'w', 'stands', 'for', 'sweet', 'william', 'for', 'he', 'is', 'the', 'fairest', 'one']"
+58,IE-2019-D-HLS-059,"On the top of yon heathery mountain, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"On the top of yon heathery mountain
+I would rather be with you
+As any duke or squire
+Or lord of a high degree.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A40_(HS_6816_Track_05).mp3,1.5272727272727273,"['on', 'the', 'top', 'of', 'yon', 'heathery', 'mountain', 'i', 'would', 'rather', 'be', 'with', 'you', 'as', 'any', 'duke', 'or', 'squire', 'or', 'lord', 'of', 'a', 'high', 'degree']"
+59,IE-2019-D-HLS-060,"The tree in the ground, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"In yonder ground there was a tree,
+As fine a tree as ever was seen,
+For the tree in the ground
+And the green grass grew all round, all round,
+And the green grass grew all round.
+And on that tree there was a stump,
+As fine a stump as ever was seen,
+For the stump on the tree,
+And the tree in the ground
+And the green grass grew all round, all round,
+And the green grass grew all round.
+And on that tree there was a branch,
+As fine a branch as ever was seen,
+For the branch on the tree,
+And the tree in the ground
+And the green grass grew all round, all round,
+And the green grass grew all round.
+And on that branch there was a twig,
+As fine a twig as ever was seen,
+For the twig on the tree,
+And the branch on the tree,
+And the tree in the ground
+And the green grass grew all round, all round,
+And the green grass grew all round.
+And on that twig there was a nest,
+As fine a nest as ever was seen,
+For the nest on the twig,
+And the twig on the tree,
+And the branch on the tree,
+And the tree in the ground
+And the green grass grew all round, all round,
+And the green grass grew all round. 
+And in that nest there was an egg,
+As fine a egg as ever was seen,
+For the egg on the nest,
+And the nest on the twig,
+And the twig on the tree,
+And the branch on the tree,
+And the tree in the ground
+And the green grass grew all round, all round,
+And the green grass grew all round. 
+And in that egg there was a bird,
+As fine a bird as ever was seen,
+For the bird in the egg,
+And the egg in the nest,
+And the nest on the twig,
+And the twig on the branch,
+And the branch on the stump,
+And the stump on the tree,
+And the tree in the ground,
+And the green grass grew all round, all round,
+And the green grass grew all round.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A41_(HS_6817_Track_02).mp3,0.18969555035128804,"['in', 'yonder', 'ground', 'there', 'was', 'a', 'tree', 'as', 'fine', 'a', 'tree', 'as', 'ever', 'was', 'seen', 'for', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'and', 'on', 'that', 'tree', 'there', 'was', 'a', 'stump', 'as', 'fine', 'a', 'stump', 'as', 'ever', 'was', 'seen', 'for', 'the', 'stump', 'on', 'the', 'tree', 'and', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'and', 'on', 'that', 'tree', 'there', 'was', 'a', 'branch', 'as', 'fine', 'a', 'branch', 'as', 'ever', 'was', 'seen', 'for', 'the', 'branch', 'on', 'the', 'tree', 'and', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'and', 'on', 'that', 'branch', 'there', 'was', 'a', 'twig', 'as', 'fine', 'a', 'twig', 'as', 'ever', 'was', 'seen', 'for', 'the', 'twig', 'on', 'the', 'tree', 'and', 'the', 'branch', 'on', 'the', 'tree', 'and', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'and', 'on', 'that', 'twig', 'there', 'was', 'a', 'nest', 'as', 'fine', 'a', 'nest', 'as', 'ever', 'was', 'seen', 'for', 'the', 'nest', 'on', 'the', 'twig', 'and', 'the', 'twig', 'on', 'the', 'tree', 'and', 'the', 'branch', 'on', 'the', 'tree', 'and', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'and', 'in', 'that', 'nest', 'there', 'was', 'an', 'egg', 'as', 'fine', 'a', 'egg', 'as', 'ever', 'was', 'seen', 'for', 'the', 'egg', 'on', 'the', 'nest', 'and', 'the', 'nest', 'on', 'the', 'twig', 'and', 'the', 'twig', 'on', 'the', 'tree', 'and', 'the', 'branch', 'on', 'the', 'tree', 'and', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'and', 'in', 'that', 'egg', 'there', 'was', 'a', 'bird', 'as', 'fine', 'a', 'bird', 'as', 'ever', 'was', 'seen', 'for', 'the', 'bird', 'in', 'the', 'egg', 'and', 'the', 'egg', 'in', 'the', 'nest', 'and', 'the', 'nest', 'on', 'the', 'twig', 'and', 'the', 'twig', 'on', 'the', 'branch', 'and', 'the', 'branch', 'on', 'the', 'stump', 'and', 'the', 'stump', 'on', 'the', 'tree', 'and', 'the', 'tree', 'in', 'the', 'ground', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round', 'all', 'round', 'and', 'the', 'green', 'grass', 'grew', 'all', 'round']"
+60,IE-2019-D-HLS-061,"It’s of a row to you I’ll show, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"It’s of a row to you I’ll show
+Down in the kitchen here below.
+To tell you the truth what begun the fray:
+The broom stood in the dishcloth’s way.
+The dishcloth said it was not fair
+And told the broom to not stand there.
+The tongs got up by the fireside,
+Got up on their long legs and cried.
+And called to the broom to quieten down
+Or he would have to leave the room.
+The dishcloth then began to wash
+And through the water it did splash.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A42_(HS_6815_Track_03).mp3,0.7873303167420814,"['it', 's', 'of', 'a', 'row', 'to', 'you', 'i', 'll', 'show', 'down', 'in', 'the', 'kitchen', 'here', 'below', 'to', 'tell', 'you', 'the', 'truth', 'what', 'begun', 'the', 'fray', 'the', 'broom', 'stood', 'in', 'the', 'dishcloth', 's', 'way', 'the', 'dishcloth', 'said', 'it', 'was', 'not', 'fair', 'and', 'told', 'the', 'broom', 'to', 'not', 'stand', 'there', 'the', 'tongs', 'got', 'up', 'by', 'the', 'fireside', 'got', 'up', 'on', 'their', 'long', 'legs', 'and', 'cried', 'and', 'called', 'to', 'the', 'broom', 'to', 'quieten', 'down', 'or', 'he', 'would', 'have', 'to', 'leave', 'the', 'room', 'the', 'dishcloth', 'then', 'began', 'to', 'wash', 'and', 'through', 'the', 'water', 'it', 'did', 'splash']"
+61,IE-2019-D-HLS-062,"To my grief and woe I’ll let you know, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"To my grief and woe I’ll let you know
+That I’m a poor land-holder
+And Nancy Margit’s my wife’s name:
+She’s a teaser of a scolder.
+I sung, Ay sure ay sure, all diddle ay, To my right shill er ill ay do.
+I hadn’t been long cutting ash in a wood
+Till I heard the roar of a donkey
+And looking round I was tight-l-y hugged
+between two rank-tailed monkeys.
+I sung, Ay sure ay sure, all diddle ay, To my right shill er ill ay do.
+O they dragged me here and they dragged me there
+And they dragged me to a river;
+Between dooking and diving I got rid
+I think I done right clever.
+I sung, Ay sure ay sure, all diddle ay, To my right shill er ill ay do.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A43_(HS_6816_Track_03).mp3,0.6248085758039816,"['to', 'my', 'grief', 'and', 'woe', 'i', 'll', 'let', 'you', 'know', 'that', 'i', 'm', 'a', 'poor', 'and', 'nancy', 'margit', 's', 'my', 'wife', 's', 'name', 'she', 's', 'a', 'teaser', 'of', 'a', 'scolder', 'i', 'sung', 'ay', 'sure', 'ay', 'sure', 'all', 'diddle', 'ay', 'to', 'my', 'right', 'shill', 'er', 'ill', 'ay', 'do', 'i', 'hadn', 't', 'been', 'long', 'cutting', 'ash', 'in', 'a', 'wood', 'till', 'i', 'heard', 'the', 'roar', 'of', 'a', 'donkey', 'and', 'looking', 'round', 'i', 'was', 'hugged', 'between', 'two', 'monkeys', 'i', 'sung', 'ay', 'sure', 'ay', 'sure', 'all', 'diddle', 'ay', 'to', 'my', 'right', 'shill', 'er', 'ill', 'ay', 'do', 'o', 'they', 'dragged', 'me', 'here', 'and', 'they', 'dragged', 'me', 'there', 'and', 'they', 'dragged', 'me', 'to', 'a', 'river', 'between', 'dooking', 'and', 'diving', 'i', 'got', 'rid', 'i', 'think', 'i', 'done', 'right', 'clever', 'i', 'sung', 'ay', 'sure', 'ay', 'sure', 'all', 'diddle', 'ay', 'to', 'my', 'right', 'shill', 'er', 'ill', 'ay', 'do']"
+62,IE-2019-D-HLS-063,"The Inniskilling dragoon, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"There was a fair lady lived in Monaghan town,
+A rich merchant’s daughter of fame and renown;
+As she strayed by the barracks this beautiful maid
+She watched from her carriage the dragoons on parade.
+Fare you well, Enniskillen, fare you well for a while
+And all around the borders of Erin’s green isle
+And when the war is over we’ll return in full bloom
+And we will all welcome home our Inniskilling dragoon.
+The dragoons they were dressed up like gentlemen’s sons With their bright, shining swords and their carabine guns; Their silver-mounted pistols she observed them full soon All because that she loved her Inniskilling dragoon.
+Fare you well, Enniskillen, fare you well for a while
+And all around the borders of Erin’s green isle
+And when the war is over we’ll return in full bloom
+And we’ll all welcome home our Inniskilling dragoon.
+Oh mother, dear mother, for me do not weep;
+My mother’s kind advice I am going for to keep.
+My parents brought me up from a boy unto a man
+And I’m going in defence of my own native land.
+Fare you well, Enniskillen, fare you well for a while,
+And all around the borders of Erin’s green isle,
+And when the war is over we’ll return in full bloom,
+And we will all welcome home our Inniskilling dragoon.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A44_(836-ITMA-MP3).mp3,0.4892772041302621,"['there', 'was', 'a', 'fair', 'lady', 'lived', 'in', 'monaghan', 'town', 'a', 'rich', 'merchant', 's', 'daughter', 'of', 'fame', 'and', 'renown', 'as', 'she', 'strayed', 'by', 'the', 'barracks', 'this', 'beautiful', 'maid', 'she', 'watched', 'from', 'her', 'carriage', 'the', 'dragoons', 'on', 'parade', 'fare', 'you', 'well', 'enniskillen', 'fare', 'you', 'well', 'for', 'a', 'while', 'and', 'all', 'around', 'the', 'borders', 'of', 'erin', 's', 'green', 'isle', 'and', 'when', 'the', 'war', 'is', 'over', 'we', 'll', 'return', 'in', 'full', 'bloom', 'and', 'we', 'will', 'all', 'welcome', 'home', 'our', 'inniskilling', 'dragoon', 'the', 'dragoons', 'they', 'were', 'dressed', 'up', 'like', 'gentlemen', 's', 'sons', 'with', 'their', 'bright', 'shining', 'swords', 'and', 'their', 'carabine', 'guns', 'their', 'pistols', 'she', 'observed', 'them', 'full', 'soon', 'all', 'because', 'that', 'she', 'loved', 'her', 'inniskilling', 'dragoon', 'fare', 'you', 'well', 'enniskillen', 'fare', 'you', 'well', 'for', 'a', 'while', 'and', 'all', 'around', 'the', 'borders', 'of', 'erin', 's', 'green', 'isle', 'and', 'when', 'the', 'war', 'is', 'over', 'we', 'll', 'return', 'in', 'full', 'bloom', 'and', 'we', 'll', 'all', 'welcome', 'home', 'our', 'inniskilling', 'dragoon', 'oh', 'mother', 'dear', 'mother', 'for', 'me', 'do', 'not', 'weep', 'my', 'mother', 's', 'kind', 'advice', 'i', 'am', 'going', 'for', 'to', 'keep', 'my', 'parents', 'brought', 'me', 'up', 'from', 'a', 'boy', 'unto', 'a', 'man', 'and', 'i', 'm', 'going', 'in', 'defence', 'of', 'my', 'own', 'native', 'land', 'fare', 'you', 'well', 'enniskillen', 'fare', 'you', 'well', 'for', 'a', 'while', 'and', 'all', 'around', 'the', 'borders', 'of', 'erin', 's', 'green', 'isle', 'and', 'when', 'the', 'war', 'is', 'over', 'we', 'll', 'return', 'in', 'full', 'bloom', 'and', 'we', 'will', 'all', 'welcome', 'home', 'our', 'inniskilling', 'dragoon']"
+63,IE-2019-D-HLS-064,"Twas pretty to be in Ballinderry, song ",In copyright - Educational Use Permitted ,"Shields, Hugh, 1929-2008 ",,,,Childhood Music,,,,English,,,,,"’Twas pretty to be in Ballinderry,
+’Twas pretty to be in Aghalee,
+’Twas pretty to be in little Ram’s island
+In trysting under the ivy tree.
+Ochone, ochone, ochone, ochone.
+’Twas pretty to be in Ballinderry,
+But now it’s sad as sad can be,
+For the ship that sailed with Phelim my lover
+Is sunk forever beneath the sea.
+Ochone, ochone, ochone, ochone.
+And oh, that I wear the weeping willow
+To wander alone by the lonesome billow
+And cry to him over the cruel sea,
+Oh Phelim, my lover, come back to me.
+Ochone, ochone, ochone, ochone.",https://s3-eu-west-1.amazonaws.com/audio.itma.ie/dustybluebells/Item_A46_(239784_A36).mp3,0.6397058823529411,"['twas', 'pretty', 'to', 'be', 'in', 'ballinderry', 'twas', 'pretty', 'to', 'be', 'in', 'aghalee', 'twas', 'pretty', 'to', 'be', 'in', 'little', 'ram', 's', 'island', 'in', 'trysting', 'under', 'the', 'ivy', 'tree', 'ochone', 'ochone', 'ochone', 'ochone', 'twas', 'pretty', 'to', 'be', 'in', 'ballinderry', 'but', 'now', 'it', 's', 'sad', 'as', 'sad', 'can', 'be', 'for', 'the', 'ship', 'that', 'sailed', 'with', 'phelim', 'my', 'lover', 'is', 'sunk', 'forever', 'beneath', 'the', 'sea', 'ochone', 'ochone', 'ochone', 'ochone', 'and', 'oh', 'that', 'i', 'wear', 'the', 'weeping', 'willow', 'to', 'wander', 'alone', 'by', 'the', 'lonesome', 'billow', 'and', 'cry', 'to', 'him', 'over', 'the', 'cruel', 'sea', 'oh', 'phelim', 'my', 'lover', 'come', 'back', 'to', 'me', 'ochone', 'ochone', 'ochone', 'ochone']"

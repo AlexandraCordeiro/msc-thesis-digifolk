@@ -31,7 +31,7 @@ d3.select("body").append("button")
         });
 
 // load data
-d3.json("intervals_info_about_all_tunes_7.json").then(function(data) {
+d3.json("intervals_info_about_all_tunes_4.json").then(function(data) {
 
     const xRadial = d3.scaleLinear()
     .range([-Math.PI / 2, -Math.PI / 2 + 2 * Math.PI])
