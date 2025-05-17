@@ -180,12 +180,12 @@ d3.csv("data.csv").then(function(data) {
     
         
         
-        const axisInnerPadding = -5
+        
 
-        const xAxis = zoomContainer.append("g").attr("id", "x-axis").attr("transform", `translate(0, ${axisInnerPadding})`).attr("class", "lato-regular")
-        const yAxis = similarityMatrix.append("g").attr("id", "y-axis").attr("transform", `translate(${axisInnerPadding}, 0)`).attr("class", "lato-regular")
+        const xAxis = svg.append("g").attr("id", "x-axis")
+        const yAxis = svg.append("g").attr("id", "y-axis")
 
-        const zoom = zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, songTokens)
+        const zoom = zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, graphWidth, songTokens)
 
         svg.call(zoom)
         zoom.transform(svg, d3.zoomIdentity.translate(
@@ -195,16 +195,21 @@ d3.csv("data.csv").then(function(data) {
 })
 
 
-function zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, songTokens)  {
+function zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, graphWidth, songTokens)  {
     let lastK = -1
-
+    
     return d3.zoom()
     .scaleExtent([1, 11])
     .on("zoom", (event) => {
         
-        zoomContainer.attr("transform", event.transform)
+        // update coordinates
+        let axisInnerPadding = -15
 
-        // zoom in/out
+        zoomContainer.attr("transform", event.transform)
+        xAxis.attr("transform", `translate(${event.transform.x}, ${event.transform.y + axisInnerPadding})`)
+        yAxis.attr("transform", `translate(${event.transform.x + axisInnerPadding}, ${event.transform.y})`)
+
+        // when zoom in/out
         if (event.transform.k != lastK) {
             // update last k
             lastK = event.transform.k
@@ -212,13 +217,13 @@ function zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, songTokens
             // update scale
             let updateScale = event.transform.rescaleX(axis)
             let currentDomain = updateScale.domain()
-            let variableFontSize = 14 / event.transform.k
+            let fontSize = 14
             let newScale = updateScale
 
             if (currentDomain[0] < 0) {
                 newScale = d3.scaleLinear()
                 .domain([0, numOfTokens - 1])
-                .range(updateScale.range())
+                .range([0, graphWidth * event.transform.k])
             }
 
             // display x axis (semantic zoom)
@@ -226,31 +231,29 @@ function zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, songTokens
             .attr("stroke-width", "1px")
             .call(
                 d3.axisTop(newScale)
-                .tickValues(d3.range(0, numOfTokens))
-                .ticks(Math.ceil(event.transform.k) * ((numOfTokens - 1) / 10))
-                .tickFormat(d => songTokens[d].toLowerCase())
-                // .tickSize(variableFontSize / 2)
+                .tickValues(d3.range(0, numOfTokens, 12 - parseInt(event.transform.k)))
+                .tickFormat(d => songTokens[d])
             )
 
             xAxis.selectAll("text")
             .attr("transform", "rotate(-45)")
+            .attr("class", "lato-regular")
             .style('text-anchor', 'start')
-            .style("font-size", `${variableFontSize}px`)
+            .style("font-size", `${fontSize}px`)
 
             // display y axis (semantic zoom)
             yAxis
             .attr("stroke-width", "1px")
             .call(
                 d3.axisLeft(newScale)
-                .tickValues(d3.range(0, numOfTokens))
-                .ticks(Math.ceil(event.transform.k) * ((numOfTokens - 1) / 10))
-                .tickFormat(d => songTokens[d].toLowerCase())
-                // .tickSize(variableFontSize / 2)
+                .tickValues(d3.range(0, numOfTokens, 12 - parseInt(event.transform.k)))
+                .tickFormat(d => songTokens[d])
             )
 
             yAxis.selectAll("text")
+            .attr("class", "lato-regular")
             .style('text-anchor', 'end')
-            .style("font-size", `${variableFontSize}px`)
+            .style("font-size", `${fontSize}px`)
         }
     
     })
