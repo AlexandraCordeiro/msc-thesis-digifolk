@@ -89,6 +89,7 @@ d3.csv("data.csv").then(function(data) {
     
     const color = d3.scaleSequential()
     .domain([0, setOfTokens.length - 1])
+    // .interpolator(d3.interpolateSinebow)
     .interpolator(d3.interpolateSinebow)
 
     let colors = {}
@@ -237,7 +238,7 @@ function zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, graphWidth
 
             xAxis.selectAll("text")
             .attr("transform", "rotate(-45)")
-            .attr("class", "lato-regular")
+            .attr("class", "montserrat-regular")
             .style('text-anchor', 'start')
             .style("font-size", `${fontSize}px`)
 
@@ -251,7 +252,7 @@ function zoomBehavior(axis, numOfTokens, xAxis, yAxis, zoomContainer, graphWidth
             )
 
             yAxis.selectAll("text")
-            .attr("class", "lato-regular")
+            .attr("class", "montserrat-regular")
             .style('text-anchor', 'end')
             .style("font-size", `${fontSize}px`)
         }
