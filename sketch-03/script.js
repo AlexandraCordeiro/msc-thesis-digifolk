@@ -24,6 +24,15 @@ const getStartOffset = (f0) => {
 
 }
 
+const euclideanDistance = (x1, y1, x2, y2) => {
+    return Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2))
+}
+
+const perimeter = (r) => {
+    return 2 * Math.PI * r
+}
+
+
 const noteToMidi = (n) => {
     if (!n) {return 0}
     let octave = parseInt(n.match(new RegExp("[0-9]+"))[0])
@@ -85,7 +94,8 @@ const scoreContour = viz.append("g")
 
 // load data
 d3.json("data.json").then(function(data) {
-    const innerRadiusSpectogram = graphWidth * 0.3
+    console.log("carregou")
+    const innerRadiusSpectogram = graphWidth * 0.35
     const outerRadiusSpectogram = graphWidth * 0.9
 
 
@@ -133,18 +143,35 @@ d3.json("data.json").then(function(data) {
     var xScore = x([0, d3.max(data.score_contour.map(d => d.end))])
 
 
-    const colorScale = d3.scaleLinear(["white", "black"])
+    const colorScale = d3.scaleLinear(["red", "black"])
         .domain([minDb, maxDb])
 
     const opacityScale = d3
         .scaleLog()
         .domain([1, maxDb + 1 + Math.abs(minDb)])
         .range([0, 1])
+    
+
+    const opacity = d3.scaleLog().domain([1, d3.max(groupDataByTime.flatMap(d => +d.bin)) + 1]).range([0, 1])
+
+    const test = (db) => {
+        if (db <= -25) {
+            return 0
+        }
+        else {
+            return opacityScale(db + Math.abs(maxDb) + 1)
+        }
+    }
 
     const radiusScale = d3
         .scaleLinear()
         .domain([minDb, maxDb])
-        .range([0, graphWidth * 0.0055])
+        .range([0, graphWidth * 0.01])
+
+    const radius = d3
+    .scaleLog()
+    .domain([1, d3.max(groupDataByTime.flatMap(d => +d.bin)) + 1])
+    .range([0, graphWidth * 0.01])
 
     const variableThickness = d3
         .scaleLinear()
@@ -203,16 +230,19 @@ d3.json("data.json").then(function(data) {
     
     let ySpectogram = y(innerRadiusSpectogram, outerRadiusSpectogram, spectogramFrequencyDomain)
     let xSpectogram = x(spectogramTimeDomain)
-
+    const n = Math.floor(groupDataByTime.length / 512)
+    /* d => opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5 */
     spectogram.selectAll("circle")
         .data(groupDataByTime)
         .enter()
         .append("circle")
+        .attr("d", (d, i) => console.log(perimeter(euclideanDistance(0, ySpectogram(+d.freq) * Math.cos(xSpectogram(+d.time)), 0,  ySpectogram(+d.freq) * Math.sin(xSpectogram(+d.time))))))
         .attr("cx", (d, i) => ySpectogram(+d.freq) * Math.cos(xSpectogram(+d.time)))
         .attr("cy", (d, i) => ySpectogram(+d.freq) * Math.sin(xSpectogram(+d.time)))
-        .attr("r", d => radiusScale(+d.db))
+        .attr("r", d => ((ySpectogram(+d.freq) * 2 * Math.PI) / (n)) * 0.7)
         .attr("fill", d => colorScale(+d.db))
-        .attr("fill-opacity", d => opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5)
+        .attr("fill-opacity", d => test(+d.db) * 0.5/* opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5 */)
+   
     
     let yAxis = viz.append("g")
     .attr("id", "y-axis")
