@@ -1,8 +1,8 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"
 
 // set the dimensions and margins of the graph
-const margin = 100,
-svgWidth = window.innerWidth,
+
+const svgWidth = window.innerWidth,
 svgHeight = window.innerHeight,
 graphHeight = svgHeight / 2,
 graphWidth = graphHeight
@@ -17,21 +17,12 @@ const getStartOffset = (f0) => {
     for (let i = 0; i < f0.length - 1; i++) {
         if (f0[i] == 0 && f0[i + 1] > 0) {
             // save index for later
-            return i;
+            return i + 1;
         }
     }
     return 0;
 
 }
-
-const euclideanDistance = (x1, y1, x2, y2) => {
-    return Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2))
-}
-
-const perimeter = (r) => {
-    return 2 * Math.PI * r
-}
-
 
 const noteToMidi = (n) => {
     if (!n) {return 0}
@@ -94,25 +85,26 @@ const scoreContour = viz.append("g")
 
 // load data
 d3.json("data.json").then(function(data) {
-    console.log("carregou")
+    
     const innerRadiusSpectogram = graphWidth * 0.35
     const outerRadiusSpectogram = graphWidth * 0.9
-
-
-    
     
     const maxDb = d3.max(data.audio_spectogram_data.map(d => +d.db))
     const minDb = d3.min(data.audio_spectogram_data.map(d => +d.db))
-    
-    const audioContourDb = data.melodic_contour[0].f0_db
+
+    // audio contour
+    // ignore initial silence
     const offsetIndex = getStartOffset(data.melodic_contour[0].f0)
     const audioContourTime = data.melodic_contour[0].time.slice(offsetIndex)
     const audioContourFrequency = data.melodic_contour[0].f0.slice(offsetIndex)
+    const audioContourDb = data.melodic_contour[0].f0_db
     
+    // spectogram data
     const groupDataByTime = Array.from(d3.group(data.audio_spectogram_data.filter(d => +d.time >= audioContourTime[offsetIndex]), d => +d.time)).flatMap(d => d[1])
     const spectogramTimeDomain = [audioContourTime[offsetIndex], d3.max(audioContourTime)]
     const spectogramFrequencyDomain = d3.extent(data.audio_spectogram_data, d => +d.freq)
 
+    // score
     const scoreContourTime = data.score_contour.map(d => d.end)
     const findMinMax = [d3.max(audioContourFrequency.filter(d => d > 0).map(d => hzToMidi(d))),
         d3.min(audioContourFrequency.filter(d => d > 0).map(d => hzToMidi(d))),
@@ -123,6 +115,7 @@ d3.json("data.json").then(function(data) {
     const audioContourFrequencyDomain = [d3.min(audioContourFrequency), d3.max(audioContourFrequency)]
 
     // X scale
+    // starts at 12 o'clock
     var x = (domain) => {
         return d3.scaleLinear()
         .range([(-Math.PI/2), (-Math.PI/2) + (2*Math.PI)])             
@@ -150,28 +143,14 @@ d3.json("data.json").then(function(data) {
         .scaleLog()
         .domain([1, maxDb + 1 + Math.abs(minDb)])
         .range([0, 1])
-    
 
-    const opacity = d3.scaleLog().domain([1, d3.max(groupDataByTime.flatMap(d => +d.bin)) + 1]).range([0, 1])
-
-    const test = (db) => {
-        if (db <= -25) {
-            return 0
-        }
-        else {
-            return opacityScale(db + Math.abs(maxDb) + 1)
-        }
-    }
+    let dbThreshold = 35
 
     const radiusScale = d3
-        .scaleLinear()
-        .domain([minDb, maxDb])
-        .range([0, graphWidth * 0.01])
+        .scaleLog()
+        .domain([1, maxDb + 1 + Math.abs(minDb)])
+        .range([0, 2])
 
-    const radius = d3
-    .scaleLog()
-    .domain([1, d3.max(groupDataByTime.flatMap(d => +d.bin)) + 1])
-    .range([0, graphWidth * 0.01])
 
     const variableThickness = d3
         .scaleLinear()
@@ -190,11 +169,10 @@ d3.json("data.json").then(function(data) {
         .defined(d => +d.f0) 
         .curve(d3.curveBasis); 
 
-
     audioContour.append("path")
       .datum(audioContourTime.map((d, i) => ({"time": +d, "f0": +audioContourFrequency[i], "db": +audioContourDb[i]})))
       .attr("fill", "black")
-      .attr("fill-opacity", 0.7)
+      .attr("fill-opacity", 0.8)
       .attr("d", d => areaGenerator(d))
     
 /*     let scoreContourGenerator = d3.line()
@@ -230,23 +208,28 @@ d3.json("data.json").then(function(data) {
     
     let ySpectogram = y(innerRadiusSpectogram, outerRadiusSpectogram, spectogramFrequencyDomain)
     let xSpectogram = x(spectogramTimeDomain)
-    const n = Math.floor(groupDataByTime.length / 512)
-    /* d => opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5 */
+    const n = Math.floor(groupDataByTime.length / 513)
+
     spectogram.selectAll("circle")
         .data(groupDataByTime)
         .enter()
-        .append("circle")
-        .attr("d", (d, i) => console.log(perimeter(euclideanDistance(0, ySpectogram(+d.freq) * Math.cos(xSpectogram(+d.time)), 0,  ySpectogram(+d.freq) * Math.sin(xSpectogram(+d.time))))))
-        .attr("cx", (d, i) => ySpectogram(+d.freq) * Math.cos(xSpectogram(+d.time)))
-        .attr("cy", (d, i) => ySpectogram(+d.freq) * Math.sin(xSpectogram(+d.time)))
-        .attr("r", d => ((ySpectogram(+d.freq) * 2 * Math.PI) / (n)) * 0.7)
-        .attr("fill", d => colorScale(+d.db))
-        .attr("fill-opacity", d => test(+d.db) * 0.5/* opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5 */)
+        .each(function (d, i) {
+            // ignore 
+            if (!(+d.db <= -dbThreshold || (+d.db > -5 && +d.db < 5)) && i % 5 == 0) {
+                d3.select(this)
+                .append("circle")
+                .attr("cx", ySpectogram(+d.freq) * Math.cos(xSpectogram(+d.time)))
+                .attr("cy", ySpectogram(+d.freq) * Math.sin(xSpectogram(+d.time)))
+                .attr("r", (((ySpectogram(+d.freq) * 2 * Math.PI) / (n)) * 0.7) * radiusScale(+d.db + Math.abs(maxDb) + 1))
+                .attr("fill", colorScale(+d.db))
+                .attr("fill-opacity", opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5)
+            }
+        })
    
     
     let yAxis = viz.append("g")
     .attr("id", "y-axis")
-    .attr("class", "jost-regular")
+    .attr("class", "montserrat-bold")
     .call(d3.axisLeft(yScore).ticks(5).tickFormat(d => midiToNote(d)))
     .attr("transform", "rotate(180)")
     .selectAll("text") 
@@ -256,7 +239,7 @@ d3.json("data.json").then(function(data) {
 
     let xAxis = viz.append("g")
     .attr("id", "x-axis")
-    .attr("class", "jost-regular")
+    .attr("class", "montserrat-regular")
     
     xAxis.append("g")
     .attr("id", "axisBottom")
@@ -295,7 +278,7 @@ d3.json("data.json").then(function(data) {
     .attr("y", d => ((xAxisRadius) - 20) * Math.sin(xScore(d)))
     .attr("text-anchor", "middle")
     .attr("dominant-baseline", "middle")
-    .attr("class", "jost-regular")
+    .attr("class", "montserrat-regular")
 
 
     let beats = viz.append("g")
@@ -305,13 +288,14 @@ d3.json("data.json").then(function(data) {
     .attr("id", "onsets")
 
 
+    console.log(audioContourTime[offsetIndex])
     onsets.selectAll("circles")
     .data(data.onset_times.filter(d => +d >= audioContourTime[offsetIndex]))
     .enter()
     .append("path")
     .attr("d", d3.symbol(d3.symbolTriangle))
-    .attr("transform", d => `translate(${(outerRadiusSpectogram + 3) * Math.cos(xAudio(+d))}, ${(outerRadiusSpectogram + 3) * Math.sin(xAudio(+d))}) rotate(${radsToDegrees(xAudio(+d)) - 90}, 0, 0)`)
+    .attr("transform", d => `translate(${(outerRadiusSpectogram + 7) * Math.cos(xAudio(+d))}, ${(outerRadiusSpectogram + 7) * Math.sin(xAudio(+d))}) rotate(${radsToDegrees(xAudio(+d)) - 90}, 0, 0)`)
     .attr("fill", "black")
     .attr("fill-opacity", 0.7)
-    .size(10)
+    .size(graphWidth * 0.05)
 })
