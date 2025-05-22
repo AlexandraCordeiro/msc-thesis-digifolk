@@ -1,12 +1,10 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"
-
 // set the dimensions and margins of the graph
 
 const svgWidth = window.innerWidth,
 svgHeight = window.innerHeight,
 graphHeight = svgHeight / 2,
 graphWidth = graphHeight
-
 
 const radsToDegrees = (rads) => {
     return (rads * 180) / Math.PI
@@ -84,7 +82,7 @@ const scoreContour = viz.append("g")
 .attr("id", "score-contour")
 
 // load data
-d3.json("data.json").then(function(data) {
+d3.json("../IE-2019-D-HLS/audio_vs_scores/IE-2019-D-HLS-001_audio_vs_score.json").then(function(data) {
     
     const innerRadiusSpectogram = graphWidth * 0.35
     const outerRadiusSpectogram = graphWidth * 0.9
@@ -144,7 +142,7 @@ d3.json("data.json").then(function(data) {
         .domain([1, maxDb + 1 + Math.abs(minDb)])
         .range([0, 1])
 
-    let dbThreshold = 35
+    let dbThreshold = 20
 
     const radiusScale = d3
         .scaleLog()
@@ -209,20 +207,26 @@ d3.json("data.json").then(function(data) {
     let ySpectogram = y(innerRadiusSpectogram, outerRadiusSpectogram, spectogramFrequencyDomain)
     let xSpectogram = x(spectogramTimeDomain)
     const n = Math.floor(groupDataByTime.length / 513)
+    const maxTimeDataPoints = 1000 / n;
+    let modValue = 5
+    if (n > 1000) {
+        modValue = Math.ceil(maxTimeDataPoints)
+    }
 
     spectogram.selectAll("circle")
         .data(groupDataByTime)
         .enter()
         .each(function (d, i) {
             // ignore 
-            if (!(+d.db <= -dbThreshold || (+d.db > -5 && +d.db < 5)) && i % 5 == 0) {
+            // console.log(i)
+            if (!(+d.db <= -dbThreshold /* || (+d.db > -5 && +d.db < 5) */) && i % modValue == 0) {
                 d3.select(this)
                 .append("circle")
                 .attr("cx", ySpectogram(+d.freq) * Math.cos(xSpectogram(+d.time)))
                 .attr("cy", ySpectogram(+d.freq) * Math.sin(xSpectogram(+d.time)))
                 .attr("r", (((ySpectogram(+d.freq) * 2 * Math.PI) / (n)) * 0.7) * radiusScale(+d.db + Math.abs(maxDb) + 1))
                 .attr("fill", colorScale(+d.db))
-                .attr("fill-opacity", opacityScale(+d.db + Math.abs(maxDb) + 1) * 0.5)
+                .attr("fill-opacity", opacityScale(+d.db + Math.abs(maxDb) + 1))
             }
         })
    
@@ -284,7 +288,7 @@ d3.json("data.json").then(function(data) {
     let beats = viz.append("g")
     .attr("id", "beats")
 
-    let onsets = viz.append("g")
+    /* let onsets = viz.append("g")
     .attr("id", "onsets")
 
 
@@ -297,5 +301,5 @@ d3.json("data.json").then(function(data) {
     .attr("transform", d => `translate(${(outerRadiusSpectogram + 7) * Math.cos(xAudio(+d))}, ${(outerRadiusSpectogram + 7) * Math.sin(xAudio(+d))}) rotate(${radsToDegrees(xAudio(+d)) - 90}, 0, 0)`)
     .attr("fill", "black")
     .attr("fill-opacity", 0.7)
-    .size(graphWidth * 0.05)
+    .size(graphWidth * 0.05) */
 })
