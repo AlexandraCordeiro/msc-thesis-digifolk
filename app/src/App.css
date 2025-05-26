@@ -5,6 +5,25 @@
   background: radial-gradient(circle, rgba(245, 228, 232, 1) 24%, rgba(224, 234, 255, 1) 100%);
 }
 
+.sparkline-labels {
+  font-family: 'Montserrat';
+  font-size: small;
+  text-align: center;
+  text-anchor: middle;
+  width: fit-content;
+}
+
+.axis-ticks {
+  font-family: montserrat;
+  font-size: small;
+  font-weight: 500;
+}
+
+.axis-ticks:hover {
+  cursor: pointer;
+  font-size: large;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

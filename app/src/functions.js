@@ -143,9 +143,24 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
     let note = data.note_frequency_by_measure.find(d => d.id === id)
 
     if (note) {
+        const sparklineSize = graphWidth * 0.1
+        const xOffset = sparklineSize / 3
+        const yOffset = sparklineSize / 2
+        const tooltipSize = (sparklineSize + xOffset + yOffset) + (graphWidth * 0.05)
+
+
+        // box
+        group.append("rect")
+            .attr("x", -(tooltipSize - sparklineSize + xOffset) / 2)
+            .attr("y", -(sparklineSize + yOffset))
+            .attr("width", tooltipSize)
+            .attr("height", tooltipSize)
+            .attr("fill", "white")
+            .attr("filter", "drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2))")
+            .attr("rx", "1%")
+
         const measures = data.note_frequency_by_measure.flatMap(d => d.measures.map(m => m.measure))
     
-        const sparklineSize = graphWidth * 0.1
     
         const xHistogram = d3.scaleLinear()
         .range([0, sparklineSize])
@@ -167,7 +182,6 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
     
         
         const histogram = sparklines.append('g')
-        // .attr('transform', `translate(${x(note.id) - sparklineSize / 2}, ${graphHeight * 0.5})`)
     
         histogram.append("path")
         .datum(note.measures)
@@ -175,12 +189,37 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
         .attr("d", d => areaGenerator(d))
     
         histogram.append("g")
+        .attr("id", "histogram-x-axis")
         .call(d3.axisBottom(xHistogram).ticks(d3.range(d3.min(measures), d3.max(measures) + 1).length))
         .attr('style', 'font-family: montserrat')
-    
+
+        
         histogram.append("g")
+        .attr("id", "histogram-y-axis")
         .call(d3.axisLeft(yHistogram).ticks(d3.range(d3.min(measures), d3.max(measures) + 1).length))
         .attr('style', 'font-family: montserrat')
+
+
+        // x label
+        histogram.append("g")
+        .attr("id", "x-label")
+        .append("text")
+        .attr('class', 'sparkline-labels')
+        .text("Measure")
+        .attr("x", sparklineSize / 2)
+        .attr("y", sparklineSize / 2)
+
+
+        // y label
+        histogram.append("g")
+        .attr("id", "y-label")
+        .append("text")
+        .attr('class', 'sparkline-labels')
+        .text("Count")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("transform", `translate(${-sparklineSize / 3}, ${-sparklineSize / 2}) rotate(-90) `)
+
     }
 
 }

@@ -1,9 +1,11 @@
-import { useRef, useEffect } from "react"
+import { useRef, useEffect, useLayoutEffect } from "react"
 import * as d3 from "d3"
 import {drawNoteFrequencyRings, drawSparklines, midiToNote, cursorPoint} from "./functions.js";
+import {useWindowSize} from "./useWindowSize.js"
 
 const mouseOver = (e, d, data, graphHeight, graphWidth, x) => {   
     let tooltip = d3.select("#tooltip")
+    let svg = d3.select("svg").node()
     tooltip.selectAll("*").remove()
     tooltip.attr("transform", null)
 
@@ -12,11 +14,11 @@ const mouseOver = (e, d, data, graphHeight, graphWidth, x) => {
     .style("opacity", 1)
 
     const sparklineSize = graphWidth * 0.1
-
-    const offset = sparklineSize * 1.5
+    const offset = sparklineSize * 2
     const groupNode = d3.select("#align-group").node();
     const [x1, y1] = d3.pointer(e, groupNode);
     tooltip.attr("transform", `translate(${x1 - (sparklineSize / 2)}, ${y1 + offset})`)
+
     drawSparklines(data, tooltip, graphHeight, graphWidth, x, d)
 
     
@@ -29,7 +31,6 @@ const mouseOut = (e, d) => {
 function drawXAxis(data, group, graphHeight, graphWidth, x) {
     // display x axis
     const noteNamesAxis = group.append("g")
-    .attr('style', 'font-family: montserrat')
     .attr("id", "note-names-x-axis")
     .attr("color", "black")
 
@@ -46,8 +47,7 @@ function drawXAxis(data, group, graphHeight, graphWidth, x) {
     )
 
     noteNamesAxis.selectAll(".tick text")
-    .style("font-size", "13px")
-    .style("font-weight", 500)
+    .attr("class", "axis-ticks")
     .on("mouseover", (d, e) => mouseOver(d, e, data, graphHeight, graphWidth, x))
     .on("mouseout", (d, e) => mouseOut(d, e))
 }
@@ -109,14 +109,15 @@ export function drawLinks(data, group, graphHeight, graphWidth, x) {
 
 const ArcDiagramChart = () => {
     const svgRef = useRef(null)
+    const [width, height] = useWindowSize();
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         
-        
+
         // set the dimensions and margins of the graph
-        const svgWidth = window.innerWidth * 0.8,
-        margin = window.innerWidth * 0.2,
-        svgHeight = window.innerHeight,
+        const svgWidth = width * 0.8,
+        margin = width * 0.2,
+        svgHeight = height,
         graphWidth = svgWidth * 0.9,
         graphHeight = svgHeight / 3
         
@@ -170,7 +171,7 @@ const ArcDiagramChart = () => {
         })
         
         
-    }, [svgRef.current])
+    }, [width, height, svgRef.current])
 
     return <svg ref={svgRef}/>
 }
