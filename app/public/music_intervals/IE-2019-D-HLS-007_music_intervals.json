@@ -1,0 +1,382 @@
+{
+    "nodes": [
+        {
+            "id": 60,
+            "name": "C4",
+            "frequency": 1
+        },
+        {
+            "id": 62,
+            "name": "D4",
+            "frequency": 1
+        },
+        {
+            "id": 64,
+            "name": "E4",
+            "frequency": 4
+        },
+        {
+            "id": 65,
+            "name": "F4",
+            "frequency": 8
+        },
+        {
+            "id": 67,
+            "name": "G4",
+            "frequency": 14
+        },
+        {
+            "id": 69,
+            "name": "A4",
+            "frequency": 2
+        },
+        {
+            "id": 72,
+            "name": "C5",
+            "frequency": 2
+        },
+        {
+            "id": 84,
+            "name": "C6",
+            "frequency": 0
+        }
+    ],
+    "links": [
+        {
+            "source": 67,
+            "target": 67,
+            "count": 8
+        },
+        {
+            "source": 67,
+            "target": 69,
+            "count": 1
+        },
+        {
+            "source": 69,
+            "target": 67,
+            "count": 1
+        },
+        {
+            "source": 67,
+            "target": 72,
+            "count": 2
+        },
+        {
+            "source": 72,
+            "target": 67,
+            "count": 2
+        },
+        {
+            "source": 67,
+            "target": 64,
+            "count": 3
+        },
+        {
+            "source": 64,
+            "target": 65,
+            "count": 2
+        },
+        {
+            "source": 65,
+            "target": 65,
+            "count": 5
+        },
+        {
+            "source": 65,
+            "target": 69,
+            "count": 1
+        },
+        {
+            "source": 69,
+            "target": 65,
+            "count": 1
+        },
+        {
+            "source": 65,
+            "target": 62,
+            "count": 1
+        },
+        {
+            "source": 62,
+            "target": 67,
+            "count": 1
+        },
+        {
+            "source": 65,
+            "target": 64,
+            "count": 1
+        },
+        {
+            "source": 64,
+            "target": 67,
+            "count": 1
+        },
+        {
+            "source": 64,
+            "target": 60,
+            "count": 1
+        }
+    ],
+    "note_frequency_by_measure": [
+        {
+            "id": 60,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 0
+                },
+                {
+                    "measure": 5,
+                    "counter": 0
+                },
+                {
+                    "measure": 6,
+                    "counter": 0
+                },
+                {
+                    "measure": 7,
+                    "counter": 0
+                },
+                {
+                    "measure": 8,
+                    "counter": 1
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 1
+                },
+                {
+                    "measure": 5,
+                    "counter": 0
+                },
+                {
+                    "measure": 6,
+                    "counter": 0
+                },
+                {
+                    "measure": 7,
+                    "counter": 0
+                },
+                {
+                    "measure": 8,
+                    "counter": 0
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 1
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 0
+                },
+                {
+                    "measure": 5,
+                    "counter": 0
+                },
+                {
+                    "measure": 6,
+                    "counter": 1
+                },
+                {
+                    "measure": 7,
+                    "counter": 1
+                },
+                {
+                    "measure": 8,
+                    "counter": 1
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 5
+                },
+                {
+                    "measure": 4,
+                    "counter": 2
+                },
+                {
+                    "measure": 5,
+                    "counter": 0
+                },
+                {
+                    "measure": 6,
+                    "counter": 0
+                },
+                {
+                    "measure": 7,
+                    "counter": 1
+                },
+                {
+                    "measure": 8,
+                    "counter": 0
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 4
+                },
+                {
+                    "measure": 2,
+                    "counter": 2
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 0
+                },
+                {
+                    "measure": 5,
+                    "counter": 5
+                },
+                {
+                    "measure": 6,
+                    "counter": 2
+                },
+                {
+                    "measure": 7,
+                    "counter": 1
+                },
+                {
+                    "measure": 8,
+                    "counter": 0
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 1
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 1
+                },
+                {
+                    "measure": 5,
+                    "counter": 0
+                },
+                {
+                    "measure": 6,
+                    "counter": 0
+                },
+                {
+                    "measure": 7,
+                    "counter": 0
+                },
+                {
+                    "measure": 8,
+                    "counter": 0
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 1
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 0
+                },
+                {
+                    "measure": 5,
+                    "counter": 0
+                },
+                {
+                    "measure": 6,
+                    "counter": 1
+                },
+                {
+                    "measure": 7,
+                    "counter": 0
+                },
+                {
+                    "measure": 8,
+                    "counter": 0
+                }
+            ]
+        }
+    ]
+}

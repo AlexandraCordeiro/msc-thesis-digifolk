@@ -1,0 +1,244 @@
+{
+    "nodes": [
+        {
+            "id": 60,
+            "name": "C4",
+            "frequency": 0
+        },
+        {
+            "id": 66,
+            "name": "F#4",
+            "frequency": 1
+        },
+        {
+            "id": 67,
+            "name": "G4",
+            "frequency": 4
+        },
+        {
+            "id": 69,
+            "name": "A4",
+            "frequency": 6
+        },
+        {
+            "id": 71,
+            "name": "B4",
+            "frequency": 9
+        },
+        {
+            "id": 72,
+            "name": "C5",
+            "frequency": 3
+        },
+        {
+            "id": 74,
+            "name": "D5",
+            "frequency": 2
+        },
+        {
+            "id": 84,
+            "name": "C6",
+            "frequency": 0
+        }
+    ],
+    "links": [
+        {
+            "source": 71,
+            "target": 67,
+            "count": 2
+        },
+        {
+            "source": 67,
+            "target": 71,
+            "count": 2
+        },
+        {
+            "source": 71,
+            "target": 71,
+            "count": 4
+        },
+        {
+            "source": 71,
+            "target": 74,
+            "count": 2
+        },
+        {
+            "source": 74,
+            "target": 69,
+            "count": 2
+        },
+        {
+            "source": 69,
+            "target": 66,
+            "count": 1
+        },
+        {
+            "source": 66,
+            "target": 69,
+            "count": 1
+        },
+        {
+            "source": 69,
+            "target": 69,
+            "count": 2
+        },
+        {
+            "source": 69,
+            "target": 72,
+            "count": 2
+        },
+        {
+            "source": 72,
+            "target": 71,
+            "count": 2
+        },
+        {
+            "source": 72,
+            "target": 72,
+            "count": 1
+        },
+        {
+            "source": 71,
+            "target": 69,
+            "count": 1
+        },
+        {
+            "source": 69,
+            "target": 67,
+            "count": 1
+        },
+        {
+            "source": 67,
+            "target": 67,
+            "count": 1
+        }
+    ],
+    "note_frequency_by_measure": [
+        {
+            "id": 66,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 1
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 0
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 1
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 1
+                },
+                {
+                    "measure": 4,
+                    "counter": 2
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 4
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 2
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 4
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 4
+                },
+                {
+                    "measure": 4,
+                    "counter": 1
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 0
+                },
+                {
+                    "measure": 2,
+                    "counter": 1
+                },
+                {
+                    "measure": 3,
+                    "counter": 0
+                },
+                {
+                    "measure": 4,
+                    "counter": 2
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "measures": [
+                {
+                    "measure": 1,
+                    "counter": 1
+                },
+                {
+                    "measure": 2,
+                    "counter": 0
+                },
+                {
+                    "measure": 3,
+                    "counter": 1
+                },
+                {
+                    "measure": 4,
+                    "counter": 0
+                }
+            ]
+        }
+    ]
+}

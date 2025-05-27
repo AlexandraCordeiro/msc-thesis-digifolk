@@ -155,7 +155,7 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
             .attr("y", -(sparklineSize + yOffset))
             .attr("width", tooltipSize)
             .attr("height", tooltipSize)
-            .attr("fill", "white")
+            .attr("fill", "#ededed")
             .attr("filter", "drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2))")
             .attr("rx", "1%")
 
@@ -182,7 +182,12 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
     
         
         const histogram = sparklines.append('g')
-    
+        const range = d3.range(d3.min(measures), d3.max(measures) + 1)
+        let numTicks = range.length
+
+
+        if (numTicks >= 6) numTicks = 5;
+
         histogram.append("path")
         .datum(note.measures)
         .attr("fill", "#009FFF")
@@ -190,13 +195,13 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
     
         histogram.append("g")
         .attr("id", "histogram-x-axis")
-        .call(d3.axisBottom(xHistogram).ticks(d3.range(d3.min(measures), d3.max(measures) + 1).length))
+        .call(d3.axisBottom(xHistogram).ticks(numTicks).tickFormat(d3.format("d")))
         .attr('style', 'font-family: montserrat')
 
         
         histogram.append("g")
         .attr("id", "histogram-y-axis")
-        .call(d3.axisLeft(yHistogram).ticks(d3.range(d3.min(measures), d3.max(measures) + 1).length))
+        .call(d3.axisLeft(yHistogram).ticks(numTicks).tickFormat(d3.format("d")))
         .attr('style', 'font-family: montserrat')
 
 
@@ -207,7 +212,7 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
         .attr('class', 'sparkline-labels')
         .text("Measure")
         .attr("x", sparklineSize / 2)
-        .attr("y", sparklineSize / 2)
+        .attr("y", sparklineSize / 1.8)
 
 
         // y label
@@ -218,7 +223,7 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
         .text("Count")
         .attr("x", 0)
         .attr("y", 0)
-        .attr("transform", `translate(${-sparklineSize / 3}, ${-sparklineSize / 2}) rotate(-90) `)
+        .attr("transform", `translate(${-sparklineSize / 2.5}, ${-sparklineSize / 2}) rotate(-90) `)
 
     }
 

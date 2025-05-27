@@ -22,7 +22,10 @@
 .axis-ticks:hover {
   cursor: pointer;
   font-size: large;
+  transition: font-size 0.3s ease;
 }
+
+
 
 .logo {
   height: 6em;

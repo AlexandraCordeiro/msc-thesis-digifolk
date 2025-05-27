@@ -6,6 +6,8 @@ from music21 import *
 import pandas as pd
 from langdetect import detect
 import re
+import json
+import traceback
 
 viz_type = "COLLECTION"
 
@@ -341,8 +343,13 @@ def get_nodes(notes):
     extremes_name = get_extremes_names_and_ids(notes)[0]
     extremes_id = get_extremes_names_and_ids(notes)[1]
   else:
-    extremes_name = ["C2", "C7"]
-    extremes_id = [get_note_id("C2"), get_note_id("C7")]
+    """ extremes_name = ["C2", "C7"]
+    extremes_id = [get_note_id("C2"), get_note_id("C7")] """
+
+    extremes = get_extremes_names_and_ids(notes)
+    print(extremes)
+    extremes_name = [extremes[0][0], extremes[0][1]]
+    extremes_id = [extremes[1][0], extremes[1][1]]
 
   name_merged_list = []
 
@@ -405,3 +412,60 @@ def get_links(notes):
       if not found:
           links.append({'source': source, 'target': target, 'count': 1})
   return links
+
+def get_note_frequency_by_measure(notes, info):
+
+  notes_per_measure = {}
+
+  for row in info.iterrows():
+      measure = row[1][1]
+      pitch = row[1][4]
+
+      if measure not in notes_per_measure.keys():
+          if pitch is not None:
+              notes_per_measure[measure] = [pitch.nameWithOctave]
+          else:
+              notes_per_measure[measure] = []
+      else:
+          notes_per_measure[measure].append(pitch.nameWithOctave)
+
+  info_about_measures = []
+
+  for k in range(len(notes_with_octave(notes))):
+      a = []
+      id = get_note_id(notes_with_octave(notes)[k])
+
+      for key,val in notes_per_measure.items():
+          d = {'measure': key, 'counter': 0}
+          for elem in val:
+              if elem == notes_with_octave(notes)[k]:
+                  d['counter'] += 1
+          a.append(d)
+      info_about_measures.append({'id': id, 'measures': a})
+
+
+  return info_about_measures
+
+def get_music_intervals_info_and_save_to_folder(tune_collection):
+
+    tune_collection = Path(tune_collection)
+    mxml_files = tune_collection / 'mxml'
+    print(mxml_files)
+    music_intervals = tune_collection / "music_intervals"
+    music_intervals.mkdir(exist_ok=True)
+
+    for tune in tqdm(mxml_files.iterdir()):
+        try:
+            filename = f"{tune}".split("/")[-1].split(".")[0]
+            print(f">>{tune}")
+            score = Score(tune)
+            info = score.get_all_notes()
+            notes = list(score.get_all_notes()['pitch'])
+            data = {'nodes': get_nodes(notes), 'links': get_links(notes), 'note_frequency_by_measure': get_note_frequency_by_measure(notes, info)}
+            with open(music_intervals / f"{filename}_music_intervals.json", "w") as f:
+                json.dump(data, f, indent=4)
+        except Exception as e:
+            print(f">> an error occurred: {e}")
+            traceback.print_exc()
+
+get_music_intervals_info_and_save_to_folder('./IE-2019-D-HLS')

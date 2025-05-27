@@ -12,8 +12,14 @@ def audio_time_series(audio_path, start, end):
   # whole song
   if end == None:
     y, sr = librosa.load(audio_path, sr=22050)
+    print(">> whole song")
+    print(len(y))
+    print("+-+-+-+")
   else:
      y, sr = librosa.load(audio_path, sr=22050, offset=start, duration=start-end)     
+     print(">> slice song")
+     print(len(y))
+     print("+-+-+-+")
   return y, sr
 
 def display_waveform(y, sr):

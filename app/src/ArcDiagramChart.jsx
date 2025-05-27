@@ -1,7 +1,7 @@
 import { useRef, useEffect, useLayoutEffect } from "react"
 import * as d3 from "d3"
 import {drawNoteFrequencyRings, drawSparklines, midiToNote, cursorPoint} from "./functions.js";
-import {useWindowSize} from "./useWindowSize.js"
+import {useWindowSize} from "./UseWindowSize.jsx"
 
 const mouseOver = (e, d, data, graphHeight, graphWidth, x) => {   
     let tooltip = d3.select("#tooltip")
@@ -43,11 +43,12 @@ function drawXAxis(data, group, graphHeight, graphWidth, x) {
             const match = data.nodes.find(n => n.id === d);
             return match ? match.name : "";
         })
-        .tickPadding(graphHeight * 0.15)
+        .tickPadding(graphHeight * 0.3)
     )
+    .attr("transform", `translate(0, ${graphHeight * 0.2})`)
 
     noteNamesAxis.selectAll(".tick text")
-    .attr("class", "axis-ticks")
+    .attr("class", "axis-ticks underline--magical")
     .on("mouseover", (d, e) => mouseOver(d, e, data, graphHeight, graphWidth, x))
     .on("mouseout", (d, e) => mouseOut(d, e))
 }
@@ -67,7 +68,7 @@ export function drawLinks(data, group, graphHeight, graphWidth, x) {
     .data(data.links)
     .join('path')
     .attr('d', (d, i) => {
-        let y = 0
+        let y = graphHeight * 0.2
         let startid = idToNode[d.source]
         let endid = idToNode[d.target]
         let start = x(idToNode[d.source].id)      // start node on the x axis
@@ -107,10 +108,13 @@ export function drawLinks(data, group, graphHeight, graphWidth, x) {
     return links
 }
 
-const ArcDiagramChart = () => {
+const ArcDiagramChart = ({tune}) => {
     const svgRef = useRef(null)
     const [width, height] = useWindowSize();
-
+    const filename = `/music_intervals/${tune}_music_intervals.json`
+    console.log(tune)
+    console.log(filename)
+    
     useLayoutEffect(() => {
         
 
@@ -141,7 +145,7 @@ const ArcDiagramChart = () => {
         .attr("style", "opacity: 0;")
 
         // load data
-        d3.json("/harmonic_intervals_data.json").then(function(data) {
+        d3.json(filename).then(function(data) {
         
             // List of node names
             const allIds = data.nodes.map(d => d.id)
@@ -171,7 +175,7 @@ const ArcDiagramChart = () => {
         })
         
         
-    }, [width, height, svgRef.current])
+    }, [width, height, svgRef.current, filename])
 
     return <svg ref={svgRef}/>
 }

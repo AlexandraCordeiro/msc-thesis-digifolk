@@ -9,7 +9,7 @@ collection_of_tunes_dir = Path('./IE-2019-D-HLS')
 mxml_files = collection_of_tunes_dir / "mxml"
 audio_files = collection_of_tunes_dir / "audio_files"
 
-audio_vs_score = collection_of_tunes_dir / "audio_vs_scores"
+audio_vs_score = collection_of_tunes_dir / "audio_vs_score"
 audio_vs_score.mkdir(exist_ok=True)
 
 

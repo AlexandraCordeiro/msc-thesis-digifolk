@@ -4,6 +4,9 @@ import Grid from '@mui/material/Grid'
 import Divider from '@mui/material/Divider'
 import CollectionOfTunesRangeChart from './CollectionOfTunesRangeChart.jsx'
 import ArcDiagramChart from './ArcDiagramChart.jsx'
+import SelectAutoWidth from './SelectAutoWidth.jsx'
+import React from 'react'
+import * as d3 from "d3"
 
 const Item = ({children, textAlign, fontWeight}) => {
   return (
@@ -29,7 +32,16 @@ const title = "Visualization of Folk Music"
 const introText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 const howToRead = "How to read this visualization"
 
+import csv from './assets/tune_duration.csv'
+const filenames = csv.map(d => d.id)
+
 export default function GridLayout() {
+  const [tune, setTune] = React.useState(filenames[0])
+
+  const handleChange = (event) => {
+    setTune(event.target.value);
+  };
+
   return (
     <Box sx={{ flexGrow: 1, width: '100%',  alignItems: "stretch"}}>
       <Grid container spacing={2}>
@@ -46,11 +58,15 @@ export default function GridLayout() {
           <Item>{howToRead}</Item>
           <Divider sx={dividerStyle}></Divider>
         </Grid>
-       {/*  <Grid size={12}>
-          <CollectionOfTunesRangeChart />
+        {/* <Grid size={9} sx={{margin: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-around'}}>
+         <img src='/harmonic_intervals.svg' style={{width: '65%'}}></img>
+         <img src='/note_count.svg' style={{width: '30%'}}></img>
         </Grid> */}
+        <Grid size={12} style={{marginLeft: '70%'}}>
+          <SelectAutoWidth options={filenames} tune={tune} handleChange={handleChange}/>
+        </Grid>
         <Grid size={12}>
-          <ArcDiagramChart />
+          <ArcDiagramChart tune={tune}/>
         </Grid>
       </Grid>
     </Box>
