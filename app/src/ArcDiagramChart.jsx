@@ -13,12 +13,6 @@ const mouseOver = (e, d, data, graphHeight, graphWidth, x) => {
     .duration(200)
     .style("opacity", 1)
 
-    const sparklineSize = graphWidth * 0.1
-    const offset = sparklineSize * 2
-    const groupNode = d3.select("#align-group").node();
-    const [x1, y1] = d3.pointer(e, groupNode);
-    tooltip.attr("transform", `translate(${x1 - (sparklineSize / 2)}, ${y1 + offset})`)
-
     drawSparklines(data, tooltip, graphHeight, graphWidth, x, d)
 
     
@@ -43,7 +37,7 @@ function drawXAxis(data, group, graphHeight, graphWidth, x) {
             const match = data.nodes.find(n => n.id === d);
             return match ? match.name : "";
         })
-        .tickPadding(graphHeight * 0.3)
+        .tickPadding(graphHeight * 0.15)
     )
     .attr("transform", `translate(0, ${graphHeight * 0.2})`)
 
@@ -119,17 +113,16 @@ const ArcDiagramChart = ({tune}) => {
         
 
         // set the dimensions and margins of the graph
-        const svgWidth = width * 0.8,
-        margin = width * 0.2,
+        const svgWidth = width * 0.95,
         svgHeight = height,
-        graphWidth = svgWidth * 0.9,
-        graphHeight = svgHeight / 3
+        graphWidth = svgWidth * 0.95,
+        graphHeight = svgHeight / 2
         
         // append the svg object to the body of the page
         const svg = d3.select(svgRef.current)
         .attr("width", svgWidth)
         .attr("height", svgHeight)
-        .attr("transform", `translate(${margin / 2},0)`)
+        .attr("transform", `translate(${width * 0.025}, 0)`)
         
         // clear all previous content on refresh
         const everything = svg.selectAll("*");
@@ -137,7 +130,7 @@ const ArcDiagramChart = ({tune}) => {
 
         const group = svg.append("g")
         .attr("id", "align-group")
-        .attr("transform", `translate(${svgWidth * 0.1 / 2},${graphHeight})`)
+        .attr("transform", `translate(${svgWidth * 0.05 * 0.5},${graphHeight})`)
         
         group
         .append("g")
@@ -165,7 +158,7 @@ const ArcDiagramChart = ({tune}) => {
             const links = drawLinks(data, group, graphHeight, graphWidth, x)
         
             // Add frequency rings
-            const rings = drawNoteFrequencyRings(data, group, graphHeight, x, colorGradient)
+            const rings = drawNoteFrequencyRings(data, group, graphWidth, x, colorGradient)
           
             // Add sparklines
             // const sparklines = drawSparklines(data, group, graphHeight, graphWidth, x)

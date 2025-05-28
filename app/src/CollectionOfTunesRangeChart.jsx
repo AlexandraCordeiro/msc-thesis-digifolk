@@ -1,26 +1,27 @@
-import React, {useRef, useEffect} from "react";
+import React, {useRef, useEffect, useLayoutEffect} from "react";
 import * as d3 from "d3";
 import {drawLinks, drawXAxis, radsToDegrees} from "./functions.js";
+import {useWindowSize} from "./UseWindowSize.jsx"
 
 const CollectionOfTunesRangeChart = () => {
     const svgRef = useRef(null);
+    const [width, height] = useWindowSize();
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         // D3 Code
 
         // set the dimensions and margins of the graph
-        const margin = 50,
-        svgWidth = window.innerWidth,
-        svgHeight = window.innerHeight,
+        const svgWidth = width * 0.6,
+        svgHeight = svgWidth,
         innerRadius = 0,
         graphHeight = svgHeight / 2,
-        graphWidth = graphHeight - innerRadius - margin
-        
+        graphWidth = graphHeight - innerRadius
         
         // append the svg object to the body of the page
         const svg = d3.select(svgRef.current)
         .attr("width", svgWidth)
         .attr("height", svgHeight)
+        .attr("transform", `translate(${width * 0.2},0)`)
         
         // clear all previous content on refresh
         const everything = svg.selectAll("*");
@@ -28,7 +29,7 @@ const CollectionOfTunesRangeChart = () => {
         
         const group = svg.append("g")
         .attr("id", "center")
-        .attr("transform", `translate(${svgWidth / 2},${graphHeight})`)
+        .attr("transform", `translate(${graphWidth}, ${graphHeight})`)
         
         // load data
         d3.json("/intervals_info_about_all_tunes.json").then(function(data) {
@@ -68,7 +69,7 @@ const CollectionOfTunesRangeChart = () => {
         }) 
         
         
-    }, [svgRef.current]) // redraw chart if data changes
+    }, [width, height, svgRef.current]) // redraw chart if data changes
 
     return <svg ref={svgRef}/>
 }

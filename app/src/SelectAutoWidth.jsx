@@ -8,7 +8,7 @@ export default function SelectAutoWidth({options, tune, handleChange}) {
 
   return (
     <div>
-      <FormControl sx={{ m: 1, minWidth: 80}} size="small">
+      <FormControl sx={{m: 1, minWidth: 80}} size="small">
         <InputLabel id="demo-simple-select-autowidth-label">Tune</InputLabel>
         <Select
           labelId="demo-simple-select-autowidth-label"
@@ -18,7 +18,7 @@ export default function SelectAutoWidth({options, tune, handleChange}) {
           autoWidth
           label="Tune"
         >
-          {options.map((option, index) => (
+          {options.map((option) => (
             <MenuItem
               sx={{ fontFamily: 'Montserrat', fontSize: '12px', fontWeight: '450'}}
               value={option}

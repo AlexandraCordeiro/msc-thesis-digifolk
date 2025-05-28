@@ -5,6 +5,7 @@ import Divider from '@mui/material/Divider'
 import CollectionOfTunesRangeChart from './CollectionOfTunesRangeChart.jsx'
 import ArcDiagramChart from './ArcDiagramChart.jsx'
 import SelectAutoWidth from './SelectAutoWidth.jsx'
+import ScrollableTabsButtonVisible from './ScrollableTabsButtonVisible.jsx'
 import React from 'react'
 import * as d3 from "d3"
 
@@ -38,8 +39,8 @@ const filenames = csv.map(d => d.id)
 export default function GridLayout() {
   const [tune, setTune] = React.useState(filenames[0])
 
-  const handleChange = (event) => {
-    setTune(event.target.value);
+  const handleChange = (event, newValue) => {
+    setTune(newValue);
   };
 
   return (
@@ -58,16 +59,19 @@ export default function GridLayout() {
           <Item>{howToRead}</Item>
           <Divider sx={dividerStyle}></Divider>
         </Grid>
-        {/* <Grid size={9} sx={{margin: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'space-around'}}>
-         <img src='/harmonic_intervals.svg' style={{width: '65%'}}></img>
-         <img src='/note_count.svg' style={{width: '30%'}}></img>
-        </Grid> */}
-        <Grid size={12} style={{marginLeft: '70%'}}>
-          <SelectAutoWidth options={filenames} tune={tune} handleChange={handleChange}/>
+        <Grid size={12} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          <ScrollableTabsButtonVisible options={filenames} tune={tune} handleChange={handleChange}/>
         </Grid>
         <Grid size={12}>
           <ArcDiagramChart tune={tune}/>
         </Grid>
+        <Grid fontWeight={600} textAlign='center' size={12}>
+          <Item>{"A look into the whole tune collection"}</Item>
+          <Divider sx={dividerStyle}></Divider>
+        </Grid>
+        {/* <Grid size={12}>
+          <CollectionOfTunesRangeChart tune={tune}/>
+        </Grid> */}
       </Grid>
     </Box>
   )

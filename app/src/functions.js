@@ -111,7 +111,7 @@ export function drawLinks(data, group, graphHeight, graphWidth, x) {
     return links
 }
 
-export function drawNoteFrequencyRings(data, group, graphHeight, x, colorGradient) {
+export function drawNoteFrequencyRings(data, group, graphWidth, x, colorGradient) {
     group
     .append('g')
     .attr('id', 'rings')
@@ -131,8 +131,8 @@ export function drawNoteFrequencyRings(data, group, graphHeight, x, colorGradien
         .enter()
             .append('circle')
             .attr('cx', d => x(d[1]))
-            .attr('cy', -(graphHeight * 0.4))
-            .attr('r', d => 4 * (d[0] + 1))
+            .attr('cy', -graphWidth * 0.1)
+            .attr('r', d => 4 * (d[0] + 1)) 
             .style('stroke', (d, i) => colorGradient(i))
             .attr("stroke-width", "0.08rem")
             .style('fill', 'none')
@@ -144,21 +144,6 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
 
     if (note) {
         const sparklineSize = graphWidth * 0.1
-        const xOffset = sparklineSize / 3
-        const yOffset = sparklineSize / 2
-        const tooltipSize = (sparklineSize + xOffset + yOffset) + (graphWidth * 0.05)
-
-
-        // box
-        group.append("rect")
-            .attr("x", -(tooltipSize - sparklineSize + xOffset) / 2)
-            .attr("y", -(sparklineSize + yOffset))
-            .attr("width", tooltipSize)
-            .attr("height", tooltipSize)
-            .attr("fill", "#ededed")
-            .attr("filter", "drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2))")
-            .attr("rx", "1%")
-
         const measures = data.note_frequency_by_measure.flatMap(d => d.measures.map(m => m.measure))
     
     
@@ -212,7 +197,7 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
         .attr('class', 'sparkline-labels')
         .text("Measure")
         .attr("x", sparklineSize / 2)
-        .attr("y", sparklineSize / 1.8)
+        .attr("y", 30)
 
 
         // y label
@@ -223,7 +208,10 @@ export function drawSparklines(data, group, graphHeight, graphWidth, x, id) {
         .text("Count")
         .attr("x", 0)
         .attr("y", 0)
-        .attr("transform", `translate(${-sparklineSize / 2.5}, ${-sparklineSize / 2}) rotate(-90) `)
+        .attr("transform", `translate(${-20}, ${-sparklineSize / 2}) rotate(-90) `)
+
+
+        histogram.attr("transform", `translate(${graphWidth / 2}, ${sparklineSize / 3.5})`)
 
     }
 
